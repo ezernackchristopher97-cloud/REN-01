@@ -1,0 +1,921 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.19)  19 JAN 2026 18:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ren01.tex
+(./ren01.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen141
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks18
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count271
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count274
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count275
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen151
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count276
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count280
+\c@bookmark@seq@number=\count281
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count282
+\float@exts=\toks22
+\float@box=\box52
+\@float@everytoks=\toks23
+\@floatcapt=\box53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen154
+\captionmargin@=\dimen155
+\captionwidth=\dimen156
+\caption@tempdima=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count283
+\c@continuedfloat=\count284
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count285
+\c@subtable=\count286
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen169
+\lightrulewidth=\dimen170
+\cmidrulewidth=\dimen171
+\belowrulesep=\dimen172
+\belowbottomsep=\dimen173
+\aboverulesep=\dimen174
+\abovetopsep=\dimen175
+\cmidrulesep=\dimen176
+\cmidrulekern=\dimen177
+\defaultaddspace=\dimen178
+\@cmidla=\count290
+\@cmidlb=\count291
+\@aboverulesep=\dimen179
+\@belowrulesep=\dimen180
+\@thisruleclass=\count292
+\@lastruleclass=\count293
+\@thisrulewidth=\dimen181
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/02/02 v1.28 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count294
+\calc@Bcount=\count295
+\calc@Adimen=\dimen182
+\calc@Bdimen=\dimen183
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count296
+\calc@Cskip=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count297
+\l_MT_multwidth_dim=\dimen184
+\origjot=\skip58
+\l_MT_shortvdotswithinadjustabove_dim=\dimen185
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen186
+\l_MT_above_intertext_sep=\dimen187
+\l_MT_below_intertext_sep=\dimen188
+\l_MT_above_shortintertext_sep=\dimen189
+\l_MT_below_shortintertext_sep=\dimen190
+\xmathstrut@box=\box54
+\xmathstrut@dim=\dimen191
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/01/26 3.70 The Babel package
+\babel@savecnt=\count298
+\U@D=\dimen192
+\l@unhyphenated=\language7
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count299
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box55
+)
+(./ren01.aux)
+\openout1 = `ren01.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count301
+\scratchdimen=\dimen193
+\scratchbox=\box56
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen194
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 37.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count307
+)
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+
+(./ren01.out) (./ren01.out)
+\@outlinefile=\write3
+\openout3 = `ren01.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\symgns@font=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 37.
+Package gensymb Info: Math companion symbols declared on input line 37.
+LaTeX Info: Redefining \degree on input line 37.
+LaTeX Info: Redefining \celsius on input line 37.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 37.
+LaTeX Info: Redefining \ohm on input line 37.
+Package gensymb Info: Using \textohm for \ohm on input line 37.
+Package gensymb Info: Using \textmu for \micro on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<figures/reop_logo.png, id=510, 1027.84pt x 1027.84pt>
+File: figures/reop_logo.png Graphic file (type png)
+<use figures/reop_logo.png>
+Package pdftex.def Info: figures/reop_logo.png  used on input line 43.
+(pdftex.def)             Requested size: 90.5922pt x 90.58821pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/reop_logo.png (P
+NG copy)>]
+[2] [3] [4]
+Overfull \hbox (13.00644pt too wide) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/12 In Parkin-son's dis-ease, as-tro-cyte dys-func-tion con-tribu
+tes to the de-gen-er-a-tion of dopamin-
+ []
+
+[5]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 187
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]\OT1/cmr/bx/n/10.95 Context
+ []
+
+
+Overfull \hbox (8.93001pt too wide) in paragraph at lines 315--316
+[]\OT1/cmr/bx/n/10.95 Quantum| 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 327.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 327.
+
+<figures/quaternion_components_healthy.png, id=735, 853.9905pt x 709.6914pt>
+File: figures/quaternion_components_healthy.png Graphic file (type png)
+<use figures/quaternion_components_healthy.png>
+Package pdftex.def Info: figures/quaternion_components_healthy.png  used on inp
+ut line 357.
+(pdftex.def)             Requested size: 430.31812pt x 357.60622pt.
+[9]
+<figures/algebraic_chain_trajectories.png, id=745, 693.5511pt x 710.655pt>
+File: figures/algebraic_chain_trajectories.png Graphic file (type png)
+<use figures/algebraic_chain_trajectories.png>
+Package pdftex.def Info: figures/algebraic_chain_trajectories.png  used on inpu
+t line 364.
+(pdftex.def)             Requested size: 430.31812pt x 440.9377pt.
+ [10 <./figures/quaternion_components_healthy.png>]
+<figures/coherence_order_parameter.png, id=752, 855.6768pt x 421.575pt>
+File: figures/coherence_order_parameter.png Graphic file (type png)
+<use figures/coherence_order_parameter.png>
+Package pdftex.def Info: figures/coherence_order_parameter.png  used on input l
+ine 373.
+(pdftex.def)             Requested size: 430.31812pt x 212.00919pt.
+ [11 <./figures/algebraic_chain_trajectories.png>] [12 <./figures/coherence_ord
+er_parameter.png>]
+Overfull \hbox (17.93149pt too wide) in paragraph at lines 413--414
+\OT1/cmr/m/n/12 MOR or as-tro-cytic CB2 re-cep-tors (not both si-mul-ta-ne-ousl
+y on dif-fer-ent cells), the population-
+ []
+
+[13] [14] [15]
+Overfull \hbox (7.26958pt too wide) in paragraph at lines 519--520
+[]$\OML/cmm/m/it/12  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; t\OT1/cmr/m/n/12 )$
+: Dopamin-er-gic ac-tiv-ity field, rep-re-sent-ing the func-tional ac-tiv-ity o
+f dopamin-
+ []
+
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
+[]\OT1/cmr/m/n/10.95 Quaternion field
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
+[]$\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 005$ (grid
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 638--638
+[]\OT1/cmr/m/n/10.95 Penalty for j-axis mis-align-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--643
+[]\OT1/cmr/m/n/10.95 i-component sup-pres-sion
+ []
+
+[18] [19]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.677  \item S
+              caling of processing by astrocytic function ($j(A \cdot Q)$)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 677
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.678  \item D
+              egradation of processing by entropy ($-k(\phi_E \cdot Q)$)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 678
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.679  \item S
+              tochastic fluctuations in recursive processing ($\eta_Q(x,t)$)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 679
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.680 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.680 \end{itemize}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+[20]
+<figures/entropy_dopamine_vector_field_final.png, id=823, 676.2063pt x 565.1514
+pt>
+File: figures/entropy_dopamine_vector_field_final.png Graphic file (type png)
+<use figures/entropy_dopamine_vector_field_final.png>
+Package pdftex.def Info: figures/entropy_dopamine_vector_field_final.png  used 
+on input line 726.
+(pdftex.def)             Requested size: 362.37569pt x 302.8661pt.
+ [21]
+<figures/quaternion_attractor.png, id=831, 693.5511pt x 710.655pt>
+File: figures/quaternion_attractor.png Graphic file (type png)
+<use figures/quaternion_attractor.png>
+Package pdftex.def Info: figures/quaternion_attractor.png  used on input line 7
+39.
+(pdftex.def)             Requested size: 362.37569pt x 371.32109pt.
+ [22 <./figures/entropy_dopamine_vector_field_final.png>] [23 <./figures/quater
+nion_attractor.png>] [24] [25] [26] [27]
+Overfull \hbox (7.30093pt too wide) in paragraph at lines 912--913
+[]\OT1/cmr/m/n/12 Sensitivity anal-y-sis con-firm-ing qual-i-ta-tive in-sen-si-
+tiv-ity to pa-ram-e-ter vari-a-tions within
+ []
+
+
+Overfull \hbox (2.98317pt too wide) in paragraph at lines 916--917
+[]\OT1/cmr/m/it/12 Note: These are com-pu-ta-tional model pre-dic-tions re-quir
+-ing em-pir-i-cal val-i-da-tion through
+ []
+
+[28] [29]
+
+! LaTeX Error: Unicode character β (U+03B2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1019 ...ased sensors quantified G protein vs. β
+                                                  -arrestin recruitment ratios
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[30] [31]
+Overfull \hbox (2.7885pt too wide) in paragraph at lines 1067--1068
+\OT1/cmr/m/n/12 Computational mod-el-ing of REN-01's ef-fects em-ploys so-phis-
+ti-cated sim-u-la-tion ap-proaches: 
+ []
+
+[32] [33] [34] [35]
+<figures/entropy_field_degenerative.png, id=915, 675.4836pt x 565.8741pt>
+File: figures/entropy_field_degenerative.png Graphic file (type png)
+<use figures/entropy_field_degenerative.png>
+Package pdftex.def Info: figures/entropy_field_degenerative.png  used on input 
+line 1224.
+(pdftex.def)             Requested size: 362.37569pt x 303.57288pt.
+
+
+! LaTeX Error: Unicode character ₀ (U+2080)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1233 The dopaminergic component (q₀
+                                       ) of Q $\psi_D(x,t)$ represents the f...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (9.19603pt too wide) in paragraph at lines 1233--1234
+\OT1/cmr/m/n/12 The dopamin-er-gic com-po-nent (q) of Q $\OML/cmm/m/it/12  []\O
+T1/cmr/m/n/12 (\OML/cmm/m/it/12 x; t\OT1/cmr/m/n/12 )$ rep-re-sents the func-ti
+onal out-put of dopamin-
+ []
+
+[36 <./figures/entropy_field_degenerative.png>]
+<figures/dopamine_field_ren01.png, id=924, 675.4836pt x 565.8741pt>
+File: figures/dopamine_field_ren01.png Graphic file (type png)
+<use figures/dopamine_field_ren01.png>
+Package pdftex.def Info: figures/dopamine_field_ren01.png  used on input line 1
+237.
+(pdftex.def)             Requested size: 362.37569pt x 303.57288pt.
+<figures/collapse_metric_field_final.png, id=925, 668.0157pt x 565.8741pt>
+File: figures/collapse_metric_field_final.png Graphic file (type png)
+<use figures/collapse_metric_field_final.png>
+Package pdftex.def Info: figures/collapse_metric_field_final.png  used on input
+ line 1250.
+(pdftex.def)             Requested size: 362.37569pt x 306.96625pt.
+ [37 <./figures/dopamine_field_ren01.png>] [38 <./figures/collapse_metric_field
+_final.png>] [39] [40] [41]
+[42] [43] [44] [45] [46]
+Overfull \hbox (1.62183pt too wide) in paragraph at lines 1629--1630
+[]\OT1/cmr/m/n/12 This model al-lows quan-ti-ta-tive pre-dic-tion of brain ex-p
+o-sure based on peptide-enhanced
+ []
+
+[47]
+<figures/patient_trajectory.png, id=1030, 855.195pt x 421.8159pt>
+File: figures/patient_trajectory.png Graphic file (type png)
+<use figures/patient_trajectory.png>
+Package pdftex.def Info: figures/patient_trajectory.png  used on input line 165
+9.
+(pdftex.def)             Requested size: 362.37569pt x 178.73837pt.
+ [48 <./figures/patient_trajectory.png>]
+Overfull \hbox (0.41844pt too wide) in paragraph at lines 1682--1683
+ []\OT1/cmr/bx/n/12 Receptor-Targeted Pep-tide Shut-tles[] \OT1/cmr/m/n/12 Pep-
+tides tar-get-ing spe-cific re-cep-tors ex-pressed
+ []
+
+
+Overfull \hbox (0.99962pt too wide) in paragraph at lines 1685--1686
+[]\OT1/cmr/m/n/12 Transferrin re-cep-tor (TfR)-binding pep-tides achieve brain 
+de-liv-ery through receptor-
+ []
+
+
+Overfull \hbox (5.72598pt too wide) in paragraph at lines 1686--1687
+[]\OT1/cmr/m/n/12 Low-density lipopro-tein receptor-related pro-tein 1 (LRP1)-t
+argeting pep-tides demon-
+ []
+
+
+Overfull \hbox (2.82751pt too wide) in paragraph at lines 1690--1691
+[]\OT1/cmr/m/n/12 Our op-ti-mized TfR-binding pep-tide (THRPPMWSPVWP) sug-gests
+ high-affinity bind-
+ []
+
+
+Overfull \hbox (1.19545pt too wide) in paragraph at lines 1702--1703
+[]\OT1/cmr/m/n/12 For acute in-ter-ven-tions re-quir-ing rapid brain pen-e-tra-
+tion, we have de-vel-oped a peptide-
+ []
+
+[49]
+Overfull \hbox (4.13142pt too wide) in paragraph at lines 1722--1723
+ []\OT1/cmr/bx/n/12 Computational Pep-tide De-sign Op-ti-miza-tion[] \OT1/cmr/m
+/n/12 Ad-vanced com-pu-ta-tional ap-proaches
+ []
+
+
+Overfull \hbox (14.03839pt too wide) in paragraph at lines 1730--1731
+[]\OT1/cmr/m/n/12 Our com-pu-ta-tional pipeline has iden-ti-fied a min-i-mal 7-
+amino acid se-quence (FRHKQLW)
+ []
+
+[50] [51] [52]
+Overfull \hbox (1.74413pt too wide) in paragraph at lines 1817--1818
+[]\OT1/cmr/bx/n/12 Validation re-quire-ments\OT1/cmr/m/n/12 : All model pre-dic
+-tions, in-clud-ing col-lapse met-ric thresh-
+ []
+
+[53] [54] [55] [56]
+Overfull \hbox (3.25375pt too wide) in paragraph at lines 1946--1947
+[]\OT1/cmr/m/n/12 Successful reg-u-la-tory nav-i-ga-tion of dual-targeting com-
+pounds through fo-cused mech-
+ []
+
+[57] [58] [59] [60] [61] [62]
+Overfull \hbox (2.08162pt too wide) in paragraph at lines 2173--2174
+[]\OT1/cmr/bx/n/12 High-performance com-put-ing im-ple-men-ta-tions\OT1/cmr/m/n
+/12 : En-abling sim-u-la-tion of larger
+ []
+
+[63] [64] [65]
+Overfull \hbox (1.7288pt too wide) in paragraph at lines 2273--2274
+[]\OT1/cmr/bx/n/12 Innovative trial de-signs\OT1/cmr/m/n/12 : Im-ple-ment-ing a
+dap-tive pro-to-cols and en-rich-ment strate-
+ []
+
+[66] [67] (./ren01.bbl [68] [69] [70]) [71] (./ren01.aux)
+Package rerunfilecheck Info: File `ren01.out' has not changed.
+(rerunfilecheck)             Checksum: 377DEAA966FEA3DB40FF1BBAB1642FF2;28159.
+ ) 
+Here is how much of TeX's memory you used:
+ 14638 strings out of 480171
+ 234219 string characters out of 5894489
+ 547322 words of memory out of 5000000
+ 31894 multiletter control sequences out of 15000+600000
+ 484506 words of font info for 84 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 60i,12n,63p,1490b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/ubuntu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.60
+0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ren01.pdf (71 pages, 6538832 bytes).
+PDF statistics:
+ 1466 PDF objects out of 1728 (max. 8388607)
+ 1320 compressed objects within 14 object streams
+ 488 named destinations out of 1000 (max. 500000)
+ 1059 words of extra memory for PDF output out of 10000 (max. 10000000)
+

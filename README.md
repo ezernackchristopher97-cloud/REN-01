@@ -1,94 +1,57 @@
-# REN-01 Manuscript Final Package
+# REN-01: Quaternionic Entropy Field Model for Parkinson's Disease
 
-**Author:** Christopher Ezernack  
-**Date:** December 14, 2025  
-**Title:** REN-01: A Novel Opioid-Derived Compound for Stabilizing Recursive Entropy Dynamics in Dopaminergic Neural Circuits
+## Overview
 
----
+This repository contains the manuscript, simulation code, and figures for REN-01, a proposed therapeutic compound for Parkinson's disease based on the EntPTC2 (Entropic Phase Transition Collapse) mathematical framework.
 
-## Package Contents
+## Repository Structure
 
-### 1. Main Manuscript
+```
+REN-01/
+├── ren01.tex              # Main LaTeX manuscript
+├── references39.bib       # Bibliography file
+├── figures/               # Generated simulation figures
+│   ├── quaternion_components_healthy.png
+│   ├── algebraic_chain_trajectories.png
+│   ├── coherence_order_parameter.png
+│   ├── quaternion_attractor.png
+│   ├── entropy_field_degenerative.png
+│   ├── dopamine_field_ren01.png
+│   ├── collapse_metric_field_final.png
+│   ├── patient_trajectory.png
+│   └── ...
+├── simulations/           # Python simulation code
+│   ├── quaternion_simulator.py    # Core quaternionic PDE solver
+│   ├── run_all_scenarios.py       # Run healthy/degenerative/REN-01 scenarios
+│   └── generate_figures.py        # Generate all manuscript figures
+└── data/                  # Simulation output data
+    ├── healthy_scenario.npz
+    ├── degenerative_scenario.npz
+    └── ren01_scenario.npz
+```
 
-**File:** `Ezernack_REN01_Manuscript_Dec2025.pdf` (3.8 MB, 74 pages)
+## Mathematical Framework
 
-Complete manuscript with:
-- Quaternionic Hilbert space formulation
-- Mathematical model and simulations
-- Chemical structure design
-- Experimental validation plan
-- 45 verified citations
-- 6 publication-quality figures
+The model is based on a quaternionic field equation:
 
-### 2. Simulation Code and Documentation
+$$\frac{\partial Q}{\partial t} = D_Q \nabla^2 Q - \beta_E \phi_E(Q^n) i Q + \alpha_D \psi_D j Q + \alpha_A A k Q + \eta_Q(x,t)$$
 
-**File:** `REN01_Simulation_Code_and_Data.pdf` (390 KB)
+where:
+- Q = q₀ + q₁i + q₂j + q₃k is a quaternion field on S³
+- φ_E is the entropy projection
+- ψ_D is the dopaminergic projection  
+- A represents astrocytic activity
+- η_Q is stochastic noise
 
-Complete simulation codebase in PDF format containing:
-- Main simulation engine (corrected_simulator.py)
-- Scenario runner (run_all_scenarios.py)
-- Figure generation (generate_all_figures.py)
-- Data export (export_to_csv.py)
-- Parameter definitions
-- Computational performance metrics
+## Running Simulations
 
-All code is provided in readable PDF format for universal accessibility.
+```bash
+cd simulations
+python3 run_all_scenarios.py
+python3 generate_figures.py
+```
 
-### 3. Simulation Data
-
-**File:** `REN01_Simulation_Data.csv` (15 KB)
-
-Excel-compatible CSV containing simulation results for all three scenarios:
-- **Columns:** Time, Scenario, Collapse_Metric, q0_Dopamine, q1_Entropy_i, q2_Astrocyte, q3_Entropy_k, Entropy_Density, Dopamine_Projection, Astrocyte_Density
-- **Rows:** 300 total (100 timepoints × 3 scenarios)
-- **Scenarios:** Healthy, Degenerative, REN-01
-
-### 4. Source Files
-
-**Files:** `ren01.tex`, `references39.bib`
-
-LaTeX source files for manuscript compilation:
-- `ren01.tex`: Complete manuscript source (140 KB)
-- `references39.bib`: Bibliography with 189 entries (16 KB)
-
-### 5. Figures
-
-**Directory:** `figures/`
-
-Six figures used in the manuscript:
-1. `collapse_metric_field_final.png` - Collapse metric spatial evolution
-2. `dopamine_field_ren01.png` - Dopamine projection under REN-01
-3. `entropy_dopamine_vector_field_final.png` - Entropy-dopamine phase space
-4. `entropy_field_degenerative.png` - Entropy density in degenerative state
-5. `patient_trajectory.png` - Patient-specific trajectory prediction
-6. `reop_logo.png` - REOP Solutions logo
-
----
-
-## Key Results
-
-### Final Collapse Metrics
-
-| Scenario | χ(t_final) | Interpretation |
-|----------|------------|----------------|
-| Healthy | 5.17 | Stable baseline |
-| Degenerative | 0.92 | Collapsed (χ < 1) |
-| REN-01 | 6.90 | Therapeutic restoration (+33% vs healthy) |
-
-### Manuscript Status
-
-- **Pages:** 74
-- **Citations:** 45 verified references
-- **Figures:** 6 publication-quality
-- **Mathematical corrections:** All applied
-- **Language polish:** Complete
-- **Formatting:** Publication-ready
-
----
-
-## Compilation Instructions
-
-To recompile the manuscript from source:
+## Compiling the Manuscript
 
 ```bash
 pdflatex ren01.tex
@@ -97,39 +60,15 @@ pdflatex ren01.tex
 pdflatex ren01.tex
 ```
 
-Requirements:
-- LaTeX distribution (TeXLive 2020+)
-- BibTeX
-- Standard packages: amsmath, graphicx, hyperref, natbib
+## Data Sources
 
----
+- OpenNeuro: Parkinson's disease neuroimaging data (ds000245)
+- PubChem: Compound structure data (CID 66553195 - Oliceridine/TRV130)
 
-## Citation
+## License
 
-If you use this work, please cite:
+All rights reserved. This is a research manuscript in preparation.
 
-> Ezernack, C. (2025). REN-01: A Novel Opioid-Derived Compound for Stabilizing Recursive Entropy Dynamics in Dopaminergic Neural Circuits. *Manuscript in preparation*.
+## Author
 
----
-
-## Contact
-
-For questions or collaboration inquiries:
-- **Author:** Christopher Ezernack
-- **Organization:** REOP Solutions
-- **Date:** December 14, 2025
-
----
-
-## Version History
-
-**v1.0 (December 14, 2025)**
-- Initial complete version
-- All mathematical corrections applied
-- All citations verified
-- Formatting polished
-- Ready for journal submission
-
----
-
-**End of README**
+Christopher Ezernack
