@@ -386,7 +386,7 @@ The following figures illustrate the quaternionic Hilbert space dynamics across 
 \begin{figure}[H]
  \centering
  \includegraphics[width=0.95\textwidth]{figures/algebraic_chain_trajectories.pdf}
- \caption{Algebraic chain phase trajectories in (q$_1$, q$_2$, q$_3$) space. Each scenario follows a distinct trajectory determined by its context-dependent multiplication order. The healthy trajectory shows tight clustering (low entropy), degenerative shows drift (increasing entropic load), and REN-01 shows regime restoration toward a low-entropy state.}
+ \caption{Algebraic chain evolution in (q$_1$, q$_2$, q$_3$) space. Each scenario follows a distinct path determined by its context-dependent multiplication order. The healthy state shows tight clustering (low entropy), degenerative shows drift (increasing entropic load), and REN-01 shows regime restoration toward a low-entropy state.}
  \label{fig:alg_chain}
 \end{figure}
 
@@ -650,7 +650,7 @@ All parameters appearing in the governing equation (Eq. \ref{eq:quaternion_prima
 \multicolumn{4}{l}{\textit{Field Variables (Dimensionless)}} \\
 $Q(x,t)$ & Quaternion field (PRIMARY) & Coupled field state with $S^3$ normalization \cite{naber1997geometry} & $\mathbb{H}$, $||Q|| = 1$ \\
 $\phi_E(x,t)$ & Entropy density & $q_1^2 + q_2^2 + q_3^2$ & Derived \\
-$\psi_D(x,t)$ & Dopamine projection & Computed from Q: $q_0(x,t)$ & Derived \\
+$\psi_D(x,t)$ & Dopamine projection & Computed from Q: $q_0^2(x,t)$ & Derived \\
 $A(x,t)$ & Astrocyte density & $q_2^2$ & Derived \\
 \hline
 \multicolumn{4}{l}{\textit{Diffusion Coefficient}} \\
@@ -693,7 +693,7 @@ The quaternion evolution equation (Eq. \ref{eq:quaternion_primary}) captures the
 The scalar projections ($\phi_E$, $\psi_D$, $A$) provide physiologically interpretable readouts:
 \begin{itemize}
  \item $\phi_E$ measures alignment with the i-axis (entropy perturbation)
- \item $\psi_D = q_0$ is the real component (dopaminergic coherence baseline)
+ \item $\psi_D = q_0^2$ is the squared real component (dopaminergic density)
  \item $A$ measures alignment with the j-axis (astrocytic activation)
 \end{itemize}
 
@@ -748,7 +748,7 @@ The interactions between entropy gradients and dopaminergic activity gradients c
 \begin{figure}[H]
  \centering
  \includegraphics[width=0.8\textwidth]{figures/entropy_dopamine_vector_field_final.png}
- \caption{Vector field visualization of the mathematical model showing interactions between entropy gradients and dopaminergic activity gradients. The field strength (color) represents the magnitude of the combined gradients, with higher values (yellow) indicating regions of potential system instability. Critical points in the field include stable attractors (green) where the system naturally maintains equilibrium, unstable repellers (red) that drive the system away from certain states, and saddle points (orange) that attract along one axis but repel along another. Black trajectories show the evolution of the system from different initial conditions. The purple dashed region represents the zone where REN-01 exerts its stabilizing effect, suggesting an expansion of the region of attraction around the stable fixed point and preventing trajectory escape toward degenerative states.}
+ \caption{Vector field visualization of the mathematical model showing interactions between entropy gradients and dopaminergic activity gradients. The field strength (color) represents the magnitude of the combined gradients, with higher values (yellow) indicating regions of potential system instability. Critical points in the field include stable attractors (green) where the system naturally maintains equilibrium, unstable repellers (red) that drive the system away from certain states, and saddle points (orange) that attract along one axis but repel along another. Black curves show the evolution of the system from different initial conditions. The purple dashed region represents the zone where REN-01 exerts its stabilizing effect, suggesting an expansion of the region of attraction around the stable fixed point.}
  \label{fig:vector_field}
 \end{figure}
 
@@ -1259,7 +1259,7 @@ The dopaminergic component (q₀) of Q $\psi_D(x,t)$ represents the functional o
 \begin{figure}[H]
  \centering
  \includegraphics[width=0.8\textwidth]{figures/dopamine_field_ren01.png}
- \caption{\textbf{Simulated Dopaminergic Projection} ($\psi_D$). Extracted as the real component $\psi_D = q_0(x,t)$ from quaternion field $Q$. Yellow/orange: high activity, purple/blue: low activity. Concentric pattern reflects modeled dopaminergic projection geometry. Degeneration follows quaternion drift toward high-entropy regions of $S^3$.}
+ \caption{\textbf{Simulated Dopaminergic Projection} ($\psi_D$). Extracted as the squared real component $\psi_D = q_0^2(x,t)$ from quaternion field $Q$. Yellow/orange: high activity, purple/blue: low activity. Concentric pattern reflects modeled dopaminergic projection geometry. Degeneration follows quaternion drift toward high-entropy regions of $S^3$.}
  \label{fig:dopamine_field}
 \end{figure}
 
@@ -2377,7 +2377,7 @@ The development of REN-01 marks the start of a novel approach to addressing neur
 
 This endeavor transcends traditional disciplinary boundaries, merging basic and applied research. It demands innovative perspectives on neural disorders and the creation of new tools to measure, model, and modulate brain dynamics. The potential payoff is a deeper understanding of neural mechanisms and more effective interventions for complex medical conditions.
 
-Challenges remain, including the complexity of REN compounds, the novelty of the theoretical framework, and the difficulties of clinical translation. Overcoming these will require persistent effort and broad collaboration. The transformative potential for treating neurodegenerative disorders, however, justifies this commitment.
+Challenges remain, including the complexity of REN compounds, the novelty of the theoretical framework, and the difficulties of clinical translation. Overcoming these will require persistent effort and broad collaboration. The potential for improved treatments of neurodegenerative disorders, however, justifies this commitment.
 
 We invite researchers, clinicians, and industry partners to engage with this paradigm, challenge its premises, and contribute to its evolution. Together, we can advance brain science and enhance outcomes for those affected by neurodegenerative conditions.
 
