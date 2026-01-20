@@ -1,0 +1,35 @@
+# PDF Verification Notes - 2026-01-20
+
+## Document Structure
+- Total pages: 88
+- Compiles cleanly with no errors
+
+## Page 1 (Title/Abstract)
+- Title: REN-01: A Novel Opioid-Derived Compound for Stabilizing Recursive Entropy Dynamics in Dopaminergic Neural Circuits
+- Author: Christopher Ezernack
+- Date: January 20, 2026
+- REOP Solutions logo present
+- Abstract properly formatted with key metrics visible
+
+## Page 2 (Disclaimer)
+- Disclaimer section present and properly formatted
+- States: "We present a theoretical and computational framework..."
+- No clinical claims made
+- Requires experimental validation
+
+## Pages 68-72 (Figures and Appendix)
+- Figure 16: REN-01 Complete Blood Brain Barrier Drug Delivery System schematic
+- Figure 17: REN-01 Molecular Structure placeholder (Parkinson's Disease)
+- Figure 18: REN-02 Molecular Structure placeholder (Alzheimer's Disease) - IN APPENDIX
+- Figure 19: Duplicate schematic (needs cleanup)
+- Figure 20: REN-01 Molecular Structure placeholder (duplicate)
+- Figure 21: REN-02 Molecular Structure placeholder (duplicate)
+- Figure 22: REN-03 Molecular Structure placeholder (Schizophrenia)
+
+## Issues Found
+1. REN-02-05 placeholders appear BOTH in main body AND appendix (duplicates)
+2. System schematic appears twice (pages 68 and 70)
+3. Need to remove duplicates from main body, keep only in appendix
+
+## Conclusion Section
+- Needs to be verified for disclaimer placement
