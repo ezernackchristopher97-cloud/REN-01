@@ -2,7 +2,7 @@
 Extract Empirical Parameters from OpenNeuro and PubChem Data
 =============================================================
 
-This script extracts relevant parameters from:
+Extracts relevant parameters from:
 1. OpenNeuro ds000245: Parkinson's disease fMRI data
 2. PubChem CID 66553195: TRV130 (Oliceridine) molecular data
 

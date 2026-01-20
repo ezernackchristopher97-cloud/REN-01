@@ -1,33 +1,48 @@
 # REN-01: Quaternionic Entropy Field Model for Parkinson's Disease
 
+**Author:** Christopher Ezernack  
+**Copyright:** 2025 REOP Solutions  
+**License:** MIT License
+
 ## Overview
 
-This repository contains the manuscript, simulation code, and figures for REN-01, a proposed therapeutic compound for Parkinson's disease based on the EntPTC2 (Entropic Phase Transition Collapse) mathematical framework.
+REN-01 is a theoretical therapeutic compound designed within the EntPTC2 (Entropic Phase Transition Collapse) mathematical framework. This repository contains the complete manuscript, simulation code, empirical data sources, and generated figures for the research project.
+
+The model employs quaternionic field equations to represent abstract regime dynamics in dopaminergic neural circuits. All simulation results are computational outputs requiring experimental validation.
 
 ## Repository Structure
 
 ```
 REN-01/
-├── ren01.tex              # Main LaTeX manuscript
-├── references39.bib       # Bibliography file
-├── figures/               # Generated simulation figures
-│   ├── quaternion_components_healthy.png
-│   ├── algebraic_chain_trajectories.png
-│   ├── coherence_order_parameter.png
-│   ├── quaternion_attractor.png
-│   ├── entropy_field_degenerative.png
-│   ├── dopamine_field_ren01.png
-│   ├── collapse_metric_field_final.png
-│   ├── patient_trajectory.png
-│   └── ...
-├── simulations/           # Python simulation code
-│   ├── quaternion_simulator.py    # Core quaternionic PDE solver
-│   ├── run_all_scenarios.py       # Run healthy/degenerative/REN-01 scenarios
-│   └── generate_figures.py        # Generate all manuscript figures
-└── data/                  # Simulation output data
-    ├── healthy_scenario.npz
-    ├── degenerative_scenario.npz
-    └── ren01_scenario.npz
+├── ren01.tex                 # LaTeX manuscript source
+├── references39.bib          # Bibliography (44 citations)
+├── ren01.pdf                 # Compiled manuscript (78 pages)
+├── figures/                  # Manuscript figures
+│   ├── fig1a_healthy_quaternion_components.png
+│   ├── fig1b_degenerative_quaternion_components.png
+│   ├── fig1c_ren01_quaternion_components.png
+│   ├── fig2_algebraic_chain_trajectories.png
+│   ├── fig3_coherence_order_parameter.png
+│   ├── fig4_entropy_dopamine_fields.png
+│   ├── fig5a_r1_attractor_topology.png
+│   ├── fig5b_r2_overlaid_histograms.png
+│   ├── fig5c_r2_boxplots.png
+│   ├── fig5d_ablation_ordering.png
+│   ├── fig5e_ablation_fields.png
+│   ├── fig5f_ablation_summary.png
+│   └── reop_logo.png
+├── scripts/                  # Simulation and figure generation code
+│   ├── quaternion_simulator.py
+│   ├── regime_uniqueness_tests.py
+│   ├── ablation_ladder.py
+│   ├── generate_figures.py
+│   └── [additional scripts]
+└── data/                     # Empirical data and parameters
+    ├── data_sources.csv
+    ├── results_summary.csv
+    ├── empirical_parameters.json
+    ├── openneuro/
+    └── pubchem/
 ```
 
 ## Mathematical Framework
@@ -36,22 +51,22 @@ The model is based on a quaternionic field equation:
 
 $$\frac{\partial Q}{\partial t} = D_Q \nabla^2 Q - \beta_E \phi_E(Q^n) i Q + \alpha_D \psi_D j Q + \alpha_A A k Q + \eta_Q(x,t)$$
 
-where:
-- Q = q₀ + q₁i + q₂j + q₃k is a quaternion field on S³
-- φ_E is the entropy projection
-- ψ_D is the dopaminergic projection  
-- A represents astrocytic activity
-- η_Q is stochastic noise
+Key variables:
+- **Q(x,t)**: Quaternion field representing abstract regime state
+- **φ_E**: Entropy proxy (derived diagnostic)
+- **ψ_D**: Dopamine proxy (derived diagnostic)
+- **χ**: Collapse metric defined as χ = ψ_D / (1 + φ_E)
 
-## Running Simulations
+Quaternion components are algebraic constructs and do not represent physical coordinates, rotations, or measurable neural variables.
 
-```bash
-cd simulations
-python3 run_all_scenarios.py
-python3 generate_figures.py
-```
+## Building the Manuscript
 
-## Compiling the Manuscript
+### Dependencies
+
+- TeX Live 2020 or later (pdflatex, bibtex)
+- Python 3.8+ with numpy, matplotlib, scipy
+
+### Compilation
 
 ```bash
 pdflatex ren01.tex
@@ -60,15 +75,52 @@ pdflatex ren01.tex
 pdflatex ren01.tex
 ```
 
+### Running Simulations
+
+```bash
+cd scripts
+python3 quaternion_simulator.py
+python3 generate_figures.py
+```
+
 ## Data Sources
 
-- OpenNeuro: Parkinson's disease neuroimaging data (ds000245)
-- PubChem: Compound structure data (CID 66553195 - Oliceridine/TRV130)
+All empirical parameters are derived from publicly available datasets:
+
+| Source | Dataset | Usage |
+|--------|---------|-------|
+| OpenNeuro | ds000245 | Parkinson's disease neuroimaging data |
+| PubChem | CID 66553195 | TRV130/Oliceridine molecular properties |
+
+Full citations and data provenance are documented in `data/data_sources.csv`.
+
+## Key Results (Simulated)
+
+| Regime | χ Value | ψ_D |
+|--------|---------|-----|
+| Healthy | 5.17 ± 0.83 | 0.87 |
+| Degenerative | 0.92 ± 0.31 | 0.14 |
+| REN-01 | 6.90 ± 1.05 | 0.91 |
+
+All results are computational model outputs and require experimental validation.
+
+## Citation
+
+```bibtex
+@article{ezernack2025ren01,
+  title={REN-01: A Novel Opioid-Derived Compound for Stabilizing Recursive 
+         Entropy Dynamics in Dopaminergic Neural Circuits},
+  author={Ezernack, Christopher},
+  year={2025},
+  note={Manuscript in preparation}
+}
+```
 
 ## License
 
-All rights reserved. This is a research manuscript in preparation.
+This project is licensed under the MIT License. See LICENSE file for details.
 
-## Author
+## Contact
 
-Christopher Ezernack
+Christopher Ezernack  
+REOP Solutions
