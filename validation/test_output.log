@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/home/ubuntu/REN-01/validation/regime_uniqueness_tests.py", line 27, in <module>
-    from scipy.stats import ttest_ind
-ModuleNotFoundError: No module named 'scipy'
