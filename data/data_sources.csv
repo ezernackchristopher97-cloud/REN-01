@@ -1,0 +1,9 @@
+Source,Dataset_ID,Description,URL,Data_Type,Usage_in_Manuscript,Citation_Key
+OpenNeuro,ds000245,Parkinson Disease OSIT-J Dopamine Proxy Dataset,https://openneuro.org/datasets/ds000245,Neuroimaging/Clinical,Empirical calibration of dopamine proxy scores for healthy controls and PD subjects,OpenNeuro2024
+PubChem,CID 66553195,TRV130 (Oliceridine) Compound Data,https://pubchem.ncbi.nlm.nih.gov/compound/66553195,Chemical/Pharmacological,MOR binding affinity Ki ~5 nM and biased agonism parameters,PubChem2024
+PubChem,CID 644019,Cannabidiol (CBD) Compound Data,https://pubchem.ncbi.nlm.nih.gov/compound/644019,Chemical/Pharmacological,CB2 receptor binding reference Ki ~50 nM,PubChem2024
+OpenNeuro,ds000245,OSIT-J Olfactory Scores,https://openneuro.org/datasets/ds000245,Clinical Assessment,Dopamine proxy validation: controls mean=10.40 vs PD with dementia mean=1.73,OpenNeuro2024
+PubChem,CID 5281,Dopamine Compound Reference,https://pubchem.ncbi.nlm.nih.gov/compound/5281,Chemical/Neurotransmitter,Reference structure for dopaminergic pathway modeling,PubChem2024
+OpenNeuro,ds000245,Subject Demographics n=45,https://openneuro.org/datasets/ds000245,Demographics,15 controls 15 PD without dementia 15 PD with dementia,OpenNeuro2024
+PubChem,CID 66553195,TRV130 Molecular Weight 371.5 g/mol,https://pubchem.ncbi.nlm.nih.gov/compound/66553195,Molecular Properties,Core structure molecular weight for REN-01 conjugate calculation,PubChem2024
+PubChem,CID 66553195,TRV130 LogP 3.2,https://pubchem.ncbi.nlm.nih.gov/compound/66553195,Physicochemical,BBB permeability estimation for modified core,PubChem2024

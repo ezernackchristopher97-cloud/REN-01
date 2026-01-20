@@ -1,0 +1,26 @@
+Result_ID,Result_Description,Value,Units,Manuscript_Location,Figure_Reference,Simulation_Source
+R1,Healthy regime collapse metric chi,5.17 +/- 0.83,dimensionless,Section 4.2 Table 1,Figure 3,quaternion_simulator.py
+R2,Degenerative regime collapse metric chi,0.92 +/- 0.31,dimensionless,Section 4.2 Table 1,Figure 3,quaternion_simulator.py
+R3,REN-01 regime collapse metric chi,6.90 +/- 1.05,dimensionless,Section 4.2 Table 1,Figure 3,quaternion_simulator.py
+R4,Healthy dopamine field psi_D,0.87,dimensionless,Section 4.2 Table 1,Figure 4,quaternion_simulator.py
+R5,Degenerative dopamine field psi_D,0.14,dimensionless,Section 4.2 Table 1,Figure 4,quaternion_simulator.py
+R6,REN-01 dopamine field psi_D,0.91,dimensionless,Section 4.2 Table 1,Figure 4,quaternion_simulator.py
+R7,Healthy entropy field phi_E,0.12,dimensionless,Section 4.2 Table 1,Figure 4,quaternion_simulator.py
+R8,Degenerative entropy field phi_E,0.38,dimensionless,Section 4.2 Table 1,Figure 4,quaternion_simulator.py
+R9,REN-01 entropy field phi_E,0.09,dimensionless,Section 4.2 Table 1,Figure 4,quaternion_simulator.py
+R10,Attractor topology spread ratio degen/healthy,1.24,ratio,Section 5.1 R1 Test,Figure 5a,regime_uniqueness_tests.py
+R11,Basin of attraction mean distance healthy,0.412,state space units,Section 5.2 R2 Test,Figure 5b,regime_uniqueness_tests.py
+R12,Basin of attraction mean distance degenerative,0.332,state space units,Section 5.2 R2 Test,Figure 5b,regime_uniqueness_tests.py
+R13,Statistical significance p-value regime comparison,<1e-80,probability,Section 5.2 R2 Test,Figure 5c,regime_uniqueness_tests.py
+R14,MOR agonism contribution to effect,75,percent,Section 5.3 Ablation,Figure 5d/5f,ablation_ladder.py
+R15,CB2 activation contribution to effect,18,percent,Section 5.3 Ablation,Figure 5d/5f,ablation_ladder.py
+R16,Entropy modulation contribution to effect,7,percent,Section 5.3 Ablation,Figure 5d/5f,ablation_ladder.py
+R17,OpenNeuro controls OSIT-J mean,10.40,score,Section 4.1 Empirical,Conclusion,extract_empirical_parameters.py
+R18,OpenNeuro PD without dementia OSIT-J mean,7.47,score,Section 4.1 Empirical,Conclusion,extract_empirical_parameters.py
+R19,OpenNeuro PD with dementia OSIT-J mean,1.73,score,Section 4.1 Empirical,Conclusion,extract_empirical_parameters.py
+R20,PubChem TRV130 MOR Ki,~5,nM,Section 3.1 Pharmacology,N/A,PubChem CID 66553195
+R21,Estimated CB2 Ki for REN-01,~50,nM,Section 3.1 Pharmacology,N/A,Literature estimate
+R22,REN-01 stability improvement vs degenerative,650,percent,Section 4.2/Conclusion,Figure 3,quaternion_simulator.py
+R23,REN-01 stability improvement vs MOR alone,33,percent,Section 5.3 Ablation,Figure 5d,ablation_ladder.py
+R24,Parameter perturbation tolerance,+/- 30,percent,Section 5.3 R3 Test,N/A,regime_uniqueness_tests.py
+R25,Number of initial conditions tested,500,count,Section 5.2 R2 Test,N/A,regime_uniqueness_tests.py

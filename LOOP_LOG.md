@@ -142,3 +142,23 @@
 - Create results summary CSV
 
 ---
+
+## Pass 5: Data Integration - 2026-01-20
+**Status:** COMPLETE
+
+### Data Sources Integrated:
+1. OpenNeuro ds000245 - Parkinson Disease OSIT-J Dataset
+2. PubChem CID 66553195 - TRV130 (Oliceridine) Compound Data
+3. PubChem CID 644019 - Cannabidiol Reference
+4. PubChem CID 5281 - Dopamine Reference
+
+### CSV Files Created:
+- data/data_sources.csv (8 entries)
+- data/results_summary.csv (25 entries)
+
+### Citations Added:
+- OpenNeuro2024 citation added to references39.bib
+- PubChem2024 citation added to references39.bib
+- Citations linked in manuscript text
+
+---
