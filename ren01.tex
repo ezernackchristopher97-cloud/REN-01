@@ -2173,7 +2173,22 @@ Recent health economic analyses support value-based pricing for transformative t
 
 Cost-effectiveness analyses of disease-modifying therapies in neurodegenerative disorders suggest favorable incremental cost-effectiveness ratios (ICERs) below established willingness-to-pay thresholds when progression is delayed by \(\geq 30\%\).
 
-\section{Future Work}
+\section{Conclusion}
+
+REN-01 represents a therapeutic approach targeting entropy stabilization in dopaminergic neurodegeneration through integrated MOR agonism, astrocyte modulation, and entropy field regulation. Simulations using empirical parameters from OpenNeuro dataset ds000245 \cite{OpenNeuro2024} (n=45 Parkinson disease subjects: 15 controls, 15 PD without dementia, 15 PD with dementia) and PubChem TRV130 pharmacological data (CID 66553195, MOR K$_i$ $\sim$5 nM) demonstrate three distinct dynamical regimes with quantifiable separation: healthy (collapse metric $\chi$=5.17$\pm$0.83, dopamine field $\psi_D$=0.87, entropy field $\phi_E$=0.12), degenerative ($\chi$=0.92$\pm$0.31, $\psi_D$=0.14, $\phi_E$=0.38), and REN-01 treatment ($\chi$=6.90$\pm$1.05, $\psi_D$=0.91, $\phi_E$=0.09).
+
+Validation studies confirm regime uniqueness: R1 attractor topology shows 24\% larger mean distance in degenerative state (0.412 vs 0.332); R2 basin of attraction mapping with 500 initial conditions yields p$<$10$^{-80}$ for all pairwise comparisons; R3 parameter perturbation testing confirms regime ordering preserved under $\pm$30\% parameter variation. Ablation studies across seven configurations (A1-A7) identify MOR agonism as the dominant therapeutic mechanism contributing 75\% of the observed effect, with CB2 activation contributing 18\% and entropy modulation 7\%.
+
+The quaternionic field formulation on S$^3$ provides a mathematically rigorous framework for modeling entropy dynamics in neural circuits. Unlike traditional approaches focused on dopamine replacement, this framework targets the informational collapse process hypothesized to precede neurodegeneration. The algebraic structure of quaternions enables representation of coupled neuronal-glial dynamics while maintaining physiological interpretability through scalar projections (dopamine, entropy, astrocyte function).
+
+Empirical calibration from real clinical data establishes quantitative targets. OpenNeuro ds000245 OSITJ dopamine proxy scores show progressive deficit: controls (mean=10.40), PD without dementia (mean=7.47, 28\% reduction), PD with dementia (mean=1.73, 83\% reduction). PubChem TRV130 data \cite{PubChem2024} provides binding affinities: K$_i$ $\sim$5 nM for MOR yields $\alpha_D$=0.667; estimated K$_i$ $\sim$50 nM for CB2 yields $\alpha_A$=0.167. Full REN-01 achieves 33\% higher stability than MOR alone and 650\% higher than degenerative baseline, confirming synergistic multi-target enhancement.
+
+The development of REN-01 marks the beginning of a novel approach to addressing neural information processing disorders. By expanding the entropy field hypothesis, refining theoretical models, and exploring additional REN-class compounds (REN-02 through REN-05), this work aims to advance neuropharmacology by targeting the informational dimensions of brain function and dysfunction. Significant challenges remain in translating this theoretical framework to clinical application, including synthesis validation, pharmacokinetic characterization, blood-brain barrier penetration studies, and comprehensive safety evaluation. The potential for improved treatments of neurodegenerative disorders justifies continued research and collaboration across disciplines.
+
+
+\appendix
+
+\section{Future Work and Extensions}
 
 The development of REN-01 and the entropy field hypothesis opens numerous avenues for future research and therapeutic development. This section outlines planned extensions of this work, including applications to other disorders, refinements of the theoretical framework, and development of additional REN-class compounds.
 
@@ -2421,18 +2436,6 @@ Progressing this initiative will necessitate:
  \item Ensure transparency and reproducibility in research.
  \end{itemize}
 \end{enumerate}
-
-\section{Conclusion}
-
-REN-01 represents a therapeutic approach targeting entropy stabilization in dopaminergic neurodegeneration through integrated MOR agonism, astrocyte modulation, and entropy field regulation. Simulations using empirical parameters from OpenNeuro dataset ds000245 \cite{OpenNeuro2024} (n=45 Parkinson disease subjects: 15 controls, 15 PD without dementia, 15 PD with dementia) and PubChem TRV130 pharmacological data (CID 66553195, MOR K$_i$ $\sim$5 nM) demonstrate three distinct dynamical regimes with quantifiable separation: healthy (collapse metric $\chi$=5.17$\pm$0.83, dopamine field $\psi_D$=0.87, entropy field $\phi_E$=0.12), degenerative ($\chi$=0.92$\pm$0.31, $\psi_D$=0.14, $\phi_E$=0.38), and REN-01 treatment ($\chi$=6.90$\pm$1.05, $\psi_D$=0.91, $\phi_E$=0.09).
-
-Validation studies confirm regime uniqueness: R1 attractor topology shows 24\% larger mean distance in degenerative state (0.412 vs 0.332); R2 basin of attraction mapping with 500 initial conditions yields p$<$10$^{-80}$ for all pairwise comparisons; R3 parameter perturbation testing confirms regime ordering preserved under $\pm$30\% parameter variation. Ablation studies across seven configurations (A1-A7) identify MOR agonism as the dominant therapeutic mechanism contributing 75\% of the observed effect, with CB2 activation contributing 18\% and entropy modulation 7\%.
-
-The quaternionic field formulation on S$^3$ provides a mathematically rigorous framework for modeling entropy dynamics in neural circuits. Unlike traditional approaches focused on dopamine replacement, this framework targets the informational collapse process hypothesized to precede neurodegeneration. The algebraic structure of quaternions enables representation of coupled neuronal-glial dynamics while maintaining physiological interpretability through scalar projections (dopamine, entropy, astrocyte function).
-
-Empirical calibration from real clinical data establishes quantitative targets. OpenNeuro ds000245 OSITJ dopamine proxy scores show progressive deficit: controls (mean=10.40), PD without dementia (mean=7.47, 28\% reduction), PD with dementia (mean=1.73, 83\% reduction). PubChem TRV130 data \cite{PubChem2024} provides binding affinities: K$_i$ $\sim$5 nM for MOR yields $\alpha_D$=0.667; estimated K$_i$ $\sim$50 nM for CB2 yields $\alpha_A$=0.167. Full REN-01 achieves 33\% higher stability than MOR alone and 650\% higher than degenerative baseline, confirming synergistic multi-target enhancement.
-
-The development of REN-01 marks the beginning of a novel approach to addressing neural information processing disorders. By expanding the entropy field hypothesis, refining theoretical models, and exploring additional REN-class compounds (REN-02 through REN-05), this work aims to advance neuropharmacology by targeting the informational dimensions of brain function and dysfunction. Significant challenges remain in translating this theoretical framework to clinical application, including synthesis validation, pharmacokinetic characterization, blood-brain barrier penetration studies, and comprehensive safety evaluation. The potential for improved treatments of neurodegenerative disorders justifies continued research and collaboration across disciplines.
 
 \bibliographystyle{apalike}
 \bibliography{references39}

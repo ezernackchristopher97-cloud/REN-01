@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.19)  20 JAN 2026 00:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.19)  20 JAN 2026 01:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,36 +817,36 @@ Overfull \hbox (3.25375pt too wide) in paragraph at lines 2021--2022
 pounds through fo-cused mech-
  []
 
-[65] [66] [67] [68] [69]
-Overfull \hbox (2.08162pt too wide) in paragraph at lines 2248--2249
-[]\OT1/cmr/bx/n/12 High-performance com-put-ing im-ple-men-ta-tions\OT1/cmr/m/n
-/12 : En-abling sim-u-la-tion of larger
- []
-
-[70] [71] [72]
-Overfull \hbox (1.7288pt too wide) in paragraph at lines 2348--2349
-[]\OT1/cmr/bx/n/12 Innovative trial de-signs\OT1/cmr/m/n/12 : Im-ple-ment-ing a
-dap-tive pro-to-cols and en-rich-ment strate-
- []
-
-[73] [74]
-Overfull \hbox (27.7536pt too wide) in paragraph at lines 2433--2434
+[65] [66] [67] [68]
+Overfull \hbox (27.7536pt too wide) in paragraph at lines 2184--2185
 \OT1/cmr/m/n/12 Neuro ds000245 OS-ITJ dopamine proxy scores show pro-gres-sive 
 deficit: con-trols (mean=10.40),
  []
 
-[75] (./ren01.bbl [76] [77] [78]) [79] (./ren01.aux)
+[69] [70]
+Overfull \hbox (2.08162pt too wide) in paragraph at lines 2263--2264
+[]\OT1/cmr/bx/n/12 High-performance com-put-ing im-ple-men-ta-tions\OT1/cmr/m/n
+/12 : En-abling sim-u-la-tion of larger
+ []
+
+[71] [72] [73]
+Overfull \hbox (1.7288pt too wide) in paragraph at lines 2363--2364
+[]\OT1/cmr/bx/n/12 Innovative trial de-signs\OT1/cmr/m/n/12 : Im-ple-ment-ing a
+dap-tive pro-to-cols and en-rich-ment strate-
+ []
+
+[74] [75] (./ren01.bbl [76] [77] [78]) [79] (./ren01.aux)
 Package rerunfilecheck Info: File `ren01.out' has not changed.
-(rerunfilecheck)             Checksum: 7D0BDE03D1B33B2860C9632988375E1C;29566.
+(rerunfilecheck)             Checksum: C7B0762DB79B042C88D95019B678E925;29615.
  ) 
 Here is how much of TeX's memory you used:
  14715 strings out of 480247
- 236285 string characters out of 5896151
- 554475 words of memory out of 5000000
+ 236249 string characters out of 5896151
+ 554484 words of memory out of 5000000
  31931 multiletter control sequences out of 15000+600000
  484675 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,63p,2249b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,63p,2249b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ubuntu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.60
 0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
@@ -865,7 +865,7 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ren01.pdf (79 pages, 5282849 bytes).
+Output written on ren01.pdf (79 pages, 5282798 bytes).
 PDF statistics:
  1583 PDF objects out of 1728 (max. 8388607)
  1414 compressed objects within 15 object streams
