@@ -377,25 +377,46 @@ The following figures illustrate the quaternionic Hilbert space dynamics across 
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=0.95\textwidth]{figures/quaternion_components_healthy.png}
- \caption{Quaternion field component evolution. The four components (q$_0$, q$_1$, q$_2$, q$_3$) show context-dependent algebraic chain dynamics. The scalar component q$_0$ represents overall coherence, while the imaginary components (q$_1$, q$_2$, q$_3$) encode dopamine, astrocyte, and entropy contributions respectively. Note that ||Q|| = 1 is maintained throughout (S³ constraint).}
- \label{fig:quat_components}
+ \includegraphics[width=0.95\textwidth]{figures/fig1a_healthy_quaternion_components.png}
+ \caption{\textbf{Figure 1a: Healthy Scenario - Quaternion Field Components.} Temporal evolution of quaternion field components in the healthy scenario. Four panels (2×2 layout) show q$_0$ (dopamine), q$_1$ (entropy-i), q$_2$ (astrocyte), and q$_3$ (entropy-k) over time. Components remain stable with low variance, indicating coherent information processing. Solid lines represent spatial mean values; shaded regions show ±1 standard deviation across the spatial domain. Simulation parameters: $\alpha_D$=0.667, $\alpha_A$=0.167, $\beta_E$=0.269, calibrated from OpenNeuro ds000245 and PubChem TRV130 data.}
+ \label{fig:1a_healthy}
 \end{figure}
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=0.95\textwidth]{figures/algebraic_chain_trajectories.png}
- \caption{Algebraic chain evolution in (q$_1$, q$_2$, q$_3$) space. Each scenario follows a distinct path determined by its context-dependent multiplication order. The healthy state shows tight clustering (low entropy), degenerative shows drift (increasing entropic load), and REN-01 shows regime restoration toward a low-entropy state.}
- \label{fig:alg_chain}
+ \includegraphics[width=0.95\textwidth]{figures/fig1b_degenerative_quaternion_components.png}
+ \caption{\textbf{Figure 1b: Degenerative Scenario - Quaternion Field Components.} Temporal evolution of quaternion field components in the degenerative (Parkinson disease) scenario. Four panels (2×2 layout) show progressive deterioration: q$_0$ (dopamine) declines significantly, q$_1$ (entropy-i) rises indicating increased disorder, q$_2$ (astrocyte) shows dysfunction, and q$_3$ (entropy-k) exhibits instability. The degenerative state corresponds to empirical OSITJ dopamine proxy of 1.73 (83\% deficit vs healthy controls at 10.40), derived from OpenNeuro ds000245 dataset.}
+ \label{fig:1b_degen}
+\end{figure}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.95\textwidth]{figures/fig1c_ren01_quaternion_components.png}
+ \caption{\textbf{Figure 1c: REN-01 Scenario - Quaternion Field Components.} Temporal evolution of quaternion field components under REN-01 therapeutic intervention. Four panels (2×2 layout) demonstrate restoration toward healthy dynamics: q$_0$ (dopamine) recovers to elevated levels, q$_1$ (entropy-i) is suppressed below healthy baseline, q$_2$ (astrocyte) shows enhanced activity, and q$_3$ (entropy-k) stabilizes. REN-01 parameters ($\alpha_D$=0.667, $\alpha_A$=0.167, $\beta_E$=0.269) reflect MOR agonism (K$_i$ ~5 nM), CB2 binding (K$_i$ ~50 nM), and entropy modulation derived from TRV130 molecular properties (PubChem CID 66553195).}
+ \label{fig:1c_ren01}
+\end{figure}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.95\textwidth]{figures/fig2_algebraic_chain_trajectories.png}
+ \caption{\textbf{Figure 2: Algebraic Chain Evolution in (q$_1$, q$_2$, q$_3$) Space.} Three-dimensional trajectories showing algebraic chain evolution in the imaginary quaternion subspace (q$_1$, q$_2$, q$_3$). Green trajectory (healthy) shows tight clustering around a stable attractor. Red trajectory (degenerative) exhibits entropic drift away from the stable region. Blue trajectory (REN-01) demonstrates therapeutic restoration with directed movement toward enhanced stability. Circles mark initial conditions; squares mark final states. Directional arrows indicate temporal progression. The distinct separation of trajectories confirms three unique dynamical regimes.}
+ \label{fig:2_trajectories}
 \end{figure}
 
 
 
 \begin{figure}[H]
  \centering
- \includegraphics[width=0.95\textwidth]{figures/coherence_order_parameter.png}
- \caption{\textbf{Quaternion Coherence and Coupled Fields.} (A) Quaternion norm $||Q|| \approx 1$ maintained by $S^3$ constraint. (B-D) Physical fields ($\phi_E$, $\psi_D$, $A$) driven by quaternionic coupling terms. Illustrates theoretical link between quaternionic structure and scalar field dynamics.}
- \label{fig:coherence}
+ \includegraphics[width=0.95\textwidth]{figures/fig3_coherence_order_parameter.png}
+ \caption{\textbf{Figure 3: Coherence Order Parameter - Regime Stability Over Time.} Collapse metric $\chi$ evolution over time for all three scenarios. The collapse metric quantifies regime stability through $\chi = (\psi_D \cdot \phi_E) / ||\nabla Q||$, where higher values indicate greater coherence. Degenerative scenario (red dashed line) drops below the collapse threshold ($\chi$ < 1), indicating regime instability. Healthy scenario (green solid line) maintains $\chi$ $\approx$ 5.2, confirming stable dynamics. REN-01 scenario (blue solid line) achieves the highest stability ($\chi$ $\approx$ 6.9), exceeding both healthy and degenerative states. Black dotted line marks the critical collapse threshold at $\chi$ = 1.}
+ \label{fig:3_coherence}
+\end{figure}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.95\textwidth]{figures/fig4_entropy_dopamine_fields.png}
+ \caption{\textbf{Figure 4: Spatial Field Distributions at Final Time.} Spatial distributions of entropy field $\phi_E$ (top row, hot colormap) and dopamine field $\psi_D$ (bottom row, viridis colormap) at final simulation time (t=40) for all three scenarios. Healthy (left column): low entropy ($\phi_E$ $\approx$ 0.15), high dopamine ($\psi_D$ $\approx$ 0.87). Degenerative (middle column): high entropy ($\phi_E$ $\approx$ 0.35), critically low dopamine ($\psi_D$ $\approx$ 0.14). REN-01 (right column): suppressed entropy ($\phi_E$ $\approx$ 0.10), restored dopamine ($\psi_D$ $\approx$ 0.95). Colorbars indicate field intensity; spatial coordinates represent 50×50 grid points with dx=1.0.}
+ \label{fig:4_fields}
 \end{figure}
 
 
