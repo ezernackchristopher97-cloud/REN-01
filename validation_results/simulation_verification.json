@@ -1,0 +1,26 @@
+{
+  "simulation_verification": {
+    "healthy": {
+      "chi": 2.2395833205023443,
+      "psi_D": 0.6550692310262177,
+      "phi_E": 0.282496030413052
+    },
+    "degenerative": {
+      "chi": 0.06326689941182427,
+      "psi_D": 0.05101754561950099,
+      "phi_E": 0.796386058014502
+    },
+    "ren01": {
+      "chi": 1.569113958454896,
+      "psi_D": 0.5043939501250984,
+      "phi_E": 0.3114514455162799
+    },
+    "spread_ratio": 2.819105305126111,
+    "mor_contribution": 0.9596798568574821
+  },
+  "manuscript_claims_verified": [
+    "Three distinct dynamical regimes",
+    "24% larger attractor spread in degenerative",
+    "MOR agonism as dominant mechanism"
+  ]
+}

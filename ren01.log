@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.19)  20 JAN 2026 00:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.19)  20 JAN 2026 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,4 +551,309 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figures/reop_logo.png, id=538, 1027.84pt x 1027.84pt>
 File: figures/reop_logo.png Graphic file (type png)
 <use figures/reop_logo.png>
-Package pdftex.def Info: figures/reop_logo.png  used on input
+Package pdftex.def Info: figures/reop_logo.png  used on input line 42.
+(pdftex.def)             Requested size: 90.5922pt x 90.58821pt.
+
+Overfull \hbox (0.13405pt too wide) in paragraph at lines 50--51
+[]\OT1/cmr/m/n/10.95 REN-01 is a pro-posed com-pound de-signed to bias regime p
+er-sis-tence in dopamin-
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/reop_logo.png (P
+NG copy)>] [2] [3]
+<figures/system_schematic.png, id=599, 3606.273pt x 3606.273pt>
+File: figures/system_schematic.png Graphic file (type png)
+<use figures/system_schematic.png>
+Package pdftex.def Info: figures/system_schematic.png  used on input line 91.
+(pdftex.def)             Requested size: 443.9066pt x 443.90462pt.
+ [4]
+Overfull \vbox (14.39774pt too high) has occurred while \output is active []
+
+
+[5 <./figures/system_schematic.png>] [6] [7] [8]
+Overfull \hbox (13.00644pt too wide) in paragraph at lines 169--170
+[]\OT1/cmr/m/n/12 In Parkin-son's dis-ease, as-tro-cyte dys-func-tion con-tribu
+tes to the de-gen-er-a-tion of dopamin-
+ []
+
+[9] [10]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 213
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [11]
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[]\OT1/cmr/bx/n/10.95 Context
+ []
+
+
+Overfull \hbox (8.93001pt too wide) in paragraph at lines 341--342
+[]\OT1/cmr/bx/n/10.95 Quantum| 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 353.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 353.
+
+[13]
+<figures/fig1a_healthy_quaternion_components.png, id=797, 860.37434pt x 741.610
+66pt>
+File: figures/fig1a_healthy_quaternion_components.png Graphic file (type png)
+<use figures/fig1a_healthy_quaternion_components.png>
+Package pdftex.def Info: figures/fig1a_healthy_quaternion_components.png  used 
+on input line 383.
+(pdftex.def)             Requested size: 430.31812pt x 370.9289pt.
+ [14]
+<figures/fig1b_degenerative_quaternion_components.png, id=802, 860.37434pt x 74
+1.61066pt>
+File: figures/fig1b_degenerative_quaternion_components.png Graphic file (type p
+ng)
+<use figures/fig1b_degenerative_quaternion_components.png>
+Package pdftex.def Info: figures/fig1b_degenerative_quaternion_components.png  
+used on input line 390.
+(pdftex.def)             Requested size: 430.31812pt x 370.9289pt.
+ [15 <./figures/fig1a_healthy_quaternion_components.png>]
+<figures/fig1c_ren01_quaternion_components.png, id=809, 860.4948pt x 741.61066p
+t>
+File: figures/fig1c_ren01_quaternion_components.png Graphic file (type png)
+<use figures/fig1c_ren01_quaternion_components.png>
+Package pdftex.def Info: figures/fig1c_ren01_quaternion_components.png  used on
+ input line 397.
+(pdftex.def)             Requested size: 430.31812pt x 370.87231pt.
+ [16 <./figures/fig1b_degenerative_quaternion_components.png>]
+<figures/fig2_algebraic_chain_trajectories.png, id=816, 666.3294pt x 715.35255p
+t>
+File: figures/fig2_algebraic_chain_trajectories.png Graphic file (type png)
+<use figures/fig2_algebraic_chain_trajectories.png>
+Package pdftex.def Info: figures/fig2_algebraic_chain_trajectories.png  used on
+ input line 404.
+(pdftex.def)             Requested size: 430.31812pt x 461.98283pt.
+ [17 <./figures/fig1c_ren01_quaternion_components.png>]
+<figures/fig3_coherence_order_parameter.png, id=823, 859.41075pt x 499.50615pt>
+
+File: figures/fig3_coherence_order_parameter.png Graphic file (type png)
+<use figures/fig3_coherence_order_parameter.png>
+Package pdftex.def Info: figures/fig3_coherence_order_parameter.png  used on in
+put line 413.
+(pdftex.def)             Requested size: 430.31812pt x 250.10306pt.
+ [18 <./figures/fig2_algebraic_chain_trajectories.png>]
+<figures/fig4_entropy_dopamine_fields.png, id=830, 1121.99174pt x 716.31615pt>
+File: figures/fig4_entropy_dopamine_fields.png Graphic file (type png)
+<use figures/fig4_entropy_dopamine_fields.png>
+Package pdftex.def Info: figures/fig4_entropy_dopamine_fields.png  used on inpu
+t line 420.
+(pdftex.def)             Requested size: 430.31812pt x 274.72781pt.
+ [19 <./figures/fig3_coherence_order_parameter.png>]
+<figures/fig5a_r1_attractor_topology.png, id=838, 743.29695pt x 643.203pt>
+File: figures/fig5a_r1_attractor_topology.png Graphic file (type png)
+<use figures/fig5a_r1_attractor_topology.png>
+Package pdftex.def Info: figures/fig5a_r1_attractor_topology.png  used on input
+ line 440.
+(pdftex.def)             Requested size: 430.31812pt x 372.37099pt.
+ [20 <./figures/fig4_entropy_dopamine_fields.png>]
+<figures/fig5b_r2_overlaid_histograms.png, id=845, 859.41075pt x 499.02435pt>
+File: figures/fig5b_r2_overlaid_histograms.png Graphic file (type png)
+<use figures/fig5b_r2_overlaid_histograms.png>
+Package pdftex.def Info: figures/fig5b_r2_overlaid_histograms.png  used on inpu
+t line 451.
+(pdftex.def)             Requested size: 385.02547pt x 223.569pt.
+ [21 <./figures/fig5a_r1_attractor_topology.png>]
+<figures/fig5c_r2_boxplots.png, id=853, 714.87074pt x 499.3857pt>
+File: figures/fig5c_r2_boxplots.png Graphic file (type png)
+<use figures/fig5c_r2_boxplots.png>
+Package pdftex.def Info: figures/fig5c_r2_boxplots.png  used on input line 458.
+
+(pdftex.def)             Requested size: 385.02547pt x 268.97084pt.
+
+[22 <./figures/fig5b_r2_overlaid_histograms.png>]
+<figures/fig5d_ablation_ordering.png, id=860, 854.2314pt x 498.9039pt>
+File: figures/fig5d_ablation_ordering.png Graphic file (type png)
+<use figures/fig5d_ablation_ordering.png>
+Package pdftex.def Info: figures/fig5d_ablation_ordering.png  used on input lin
+e 473.
+(pdftex.def)             Requested size: 385.02547pt x 224.87009pt.
+ [23 <./figures/fig5c_r2_boxplots.png>]
+<figures/fig5e_ablation_fields.png, id=867, 859.16985pt x 499.02435pt>
+File: figures/fig5e_ablation_fields.png Graphic file (type png)
+<use figures/fig5e_ablation_fields.png>
+Package pdftex.def Info: figures/fig5e_ablation_fields.png  used on input line 
+480.
+(pdftex.def)             Requested size: 385.02547pt x 223.62991pt.
+<figures/fig5f_ablation_summary.png, id=868, 859.5312pt x 499.8675pt>
+File: figures/fig5f_ablation_summary.png Graphic file (type png)
+<use figures/fig5f_ablation_summary.png>
+Package pdftex.def Info: figures/fig5f_ablation_summary.png  used on input line
+ 487.
+(pdftex.def)             Requested size: 385.02547pt x 223.91623pt.
+ [24 <./figures/fig5d_ablation_ordering.png> <./figures/fig5e_ablation_fields.p
+ng>] [25 <./figures/fig5f_ablation_summary.png>] [26]
+Overfull \hbox (17.93149pt too wide) in paragraph at lines 534--535
+\OT1/cmr/m/n/12 MOR or as-tro-cytic CB2 re-cep-tors (not both si-mul-ta-ne-ousl
+y on dif-fer-ent cells), the population-
+ []
+
+[27] [28] [29]
+Overfull \hbox (7.26958pt too wide) in paragraph at lines 638--639
+[]$\OML/cmm/m/it/12  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; t\OT1/cmr/m/n/12 )$
+: Dopamin-er-gic ac-tiv-ity field, rep-re-sent-ing the func-tional ac-tiv-ity o
+f dopamin-
+ []
+
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 746--746
+[]\OT1/cmr/m/n/10.95 Quaternion field
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 752--753
+[]$\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 005$ (grid
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 757--757
+[]\OT1/cmr/m/n/10.95 Penalty for j-axis mis-align-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--762
+[]\OT1/cmr/m/n/10.95 i-component sup-pres-sion
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 767--767
+[]\OT1/cmr/m/n/10.95 Bias to-ward regime per-sis-
+ []
+
+[32] [33] [34] [35] [36] [37] [38]
+Overfull \hbox (7.30093pt too wide) in paragraph at lines 1013--1014
+[]\OT1/cmr/m/n/12 Sensitivity anal-y-sis con-firm-ing qual-i-ta-tive in-sen-si-
+tiv-ity to pa-ram-e-ter vari-a-tions within
+ []
+
+
+Overfull \hbox (2.98317pt too wide) in paragraph at lines 1017--1018
+[]\OT1/cmr/m/it/12 Note: These are com-pu-ta-tional model pre-dic-tions re-quir
+-ing em-pir-i-cal val-i-da-tion through
+ []
+
+[39] [40] [41] [42]
+Overfull \hbox (2.7885pt too wide) in paragraph at lines 1168--1169
+\OT1/cmr/m/n/12 Computational mod-el-ing of REN-01's ef-fects em-ploys so-phis-
+ti-cated sim-u-la-tion ap-proaches: 
+ []
+
+[43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
+Overfull \hbox (1.62183pt too wide) in paragraph at lines 1715--1716
+[]\OT1/cmr/m/n/12 This model al-lows quan-ti-ta-tive pre-dic-tion of brain ex-p
+o-sure based on peptide-enhanced
+ []
+
+[55]
+Overfull \hbox (0.41844pt too wide) in paragraph at lines 1763--1764
+ []\OT1/cmr/bx/n/12 Receptor-Targeted Pep-tide Shut-tles[] \OT1/cmr/m/n/12 Pep-
+tides tar-get-ing spe-cific re-cep-tors ex-pressed
+ []
+
+
+Overfull \hbox (0.99962pt too wide) in paragraph at lines 1766--1767
+[]\OT1/cmr/m/n/12 Transferrin re-cep-tor (TfR)-binding pep-tides achieve brain 
+de-liv-ery through receptor-
+ []
+
+[56]
+Overfull \hbox (5.72598pt too wide) in paragraph at lines 1767--1768
+[]\OT1/cmr/m/n/12 Low-density lipopro-tein receptor-related pro-tein 1 (LRP1)-t
+argeting pep-tides demon-
+ []
+
+
+Overfull \hbox (2.82751pt too wide) in paragraph at lines 1771--1772
+[]\OT1/cmr/m/n/12 Our op-ti-mized TfR-binding pep-tide (THRPPMWSPVWP) sug-gests
+ high-affinity bind-
+ []
+
+[57]
+Overfull \hbox (4.13142pt too wide) in paragraph at lines 1803--1804
+ []\OT1/cmr/bx/n/12 Computational Pep-tide De-sign Op-ti-miza-tion[] \OT1/cmr/m
+/n/12 Ad-vanced com-pu-ta-tional ap-proaches
+ []
+
+
+Overfull \hbox (14.03839pt too wide) in paragraph at lines 1811--1812
+[]\OT1/cmr/m/n/12 Our com-pu-ta-tional pipeline has iden-ti-fied a min-i-mal 7-
+amino acid se-quence (FRHKQLW)
+ []
+
+[58] [59] [60]
+Overfull \hbox (1.74413pt too wide) in paragraph at lines 1898--1899
+[]\OT1/cmr/bx/n/12 Validation re-quire-ments\OT1/cmr/m/n/12 : All model pre-dic
+-tions, in-clud-ing col-lapse met-ric thresh-
+ []
+
+[61] [62] [63]
+Overfull \hbox (3.25375pt too wide) in paragraph at lines 2021--2022
+[]\OT1/cmr/m/n/12 Successful reg-u-la-tory nav-i-ga-tion of dual-targeting com-
+pounds through fo-cused mech-
+ []
+
+[64] [65] [66] [67] [68] [69]
+Overfull \hbox (2.08162pt too wide) in paragraph at lines 2248--2249
+[]\OT1/cmr/bx/n/12 High-performance com-put-ing im-ple-men-ta-tions\OT1/cmr/m/n
+/12 : En-abling sim-u-la-tion of larger
+ []
+
+[70] [71] [72]
+Overfull \hbox (1.7288pt too wide) in paragraph at lines 2348--2349
+[]\OT1/cmr/bx/n/12 Innovative trial de-signs\OT1/cmr/m/n/12 : Im-ple-ment-ing a
+dap-tive pro-to-cols and en-rich-ment strate-
+ []
+
+[73] [74]
+Overfull \hbox (27.7536pt too wide) in paragraph at lines 2433--2434
+\OT1/cmr/m/n/12 Neuro ds000245 OS-ITJ dopamine proxy scores show pro-gres-sive 
+deficit: con-trols (mean=10.40),
+ []
+
+(./ren01.bbl [75] [76] [77] [78]) [79] (./ren01.aux)
+Package rerunfilecheck Info: File `ren01.out' has not changed.
+(rerunfilecheck)             Checksum: 7D0BDE03D1B33B2860C9632988375E1C;29566.
+ ) 
+Here is how much of TeX's memory you used:
+ 14704 strings out of 480247
+ 236101 string characters out of 5896151
+ 552351 words of memory out of 5000000
+ 31923 multiletter control sequences out of 15000+600000
+ 484506 words of font info for 84 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 60i,12n,63p,2209b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/ubuntu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.60
+0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ren01.pdf (79 pages, 22696534 bytes).
+PDF statistics:
+ 1549 PDF objects out of 1728 (max. 8388607)
+ 1387 compressed objects within 14 object streams
+ 512 named destinations out of 1000 (max. 500000)
+ 1135 words of extra memory for PDF output out of 10000 (max. 10000000)
+
