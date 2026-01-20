@@ -78,12 +78,7 @@ def generate_fig2_trajectories():
     ax.set_title('Algebraic Chain Evolution in (q₁, q₂, q₃) Space\nCircle = Start, Square = End', 
                  fontsize=15, fontweight='bold', pad=20)
     
-    # Add text annotations for clarity
-    ax.text2D(0.02, 0.98, 'Interpretation:\n• Green: Stable healthy state\n• Red: Entropic drift (degeneration)\n• Blue: Therapeutic restoration',
-              transform=ax.transAxes, fontsize=10, verticalalignment='top',
-              bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
-    
-    ax.legend(fontsize=10, loc='upper right', framealpha=0.9, ncol=2)
+    ax.legend(fontsize=10, loc='upper left', framealpha=0.9, ncol=2)
     ax.grid(True, alpha=0.3, linestyle='--')
     
     # Set viewing angle
