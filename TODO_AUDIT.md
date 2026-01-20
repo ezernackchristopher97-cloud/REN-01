@@ -1,119 +1,58 @@
-# TODO AUDIT - REN-01 Manuscript
+# REN-01 Manuscript Audit TODO
 
-## Status: IN PROGRESS
-Last Updated: 2026-01-19
+## Status: ALL COMPLETE ✓
 
----
+### Phase 1: Read Pasted Files ✓
+- [x] pasted_content_4.txt - Read in full
+- [x] pasted_content_5.txt - Read in full
+- [x] pasted_content_6.txt - Read in full
+- [x] pasted_content_7.txt - Read in full
+- [x] pasted_content_8.txt - Read in full
 
-## ABSTRACT SECTION
-- [ ] Add sentence: entropy is model-defined proxy, not thermodynamic
-- [ ] State quaternions used only for algebraic order sensitivity
-- [ ] Reframe chemical involvement as test perturbation, not intervention
+### Phase 2: Baseline Commit ✓
+- [x] Confirmed tex and bib files exist
+- [x] Created clean baseline commit
 
-## INTRODUCTION SECTION
-- [ ] Replace smooth evolution language with regime transition language
-- [ ] Replace causal verbs with probabilistic/bias-based verbs
-- [ ] Add early definition: connectivity = functional regime coupling, not anatomy
-- [ ] Remove "progression", "pathways", "evolution toward" language
+### Phase 3: Persistent Files ✓
+- [x] Created TODO_AUDIT.md
+- [x] Created LOOP_LOG.md
 
-## MODEL OVERVIEW / METHODS
-- [ ] Add: quaternion components have no spatial/physical interpretation
-- [ ] Lock entropy to ONE definition: accumulated destabilizing proxy
-- [ ] Define regime thresholds as parameter-defined constructs
-- [ ] State F is bounded and normalization preserving
-- [ ] State noise is additive before normalization
-- [ ] Clarify F is not optimized or minimized
+### Phase 4: Manuscript Micro-Edits ✓
+- [x] Remove overclaims
+- [x] Lock regime logic everywhere
+- [x] Keep quaternions algebraic only
+- [x] Entropy definitions consistent
+- [x] Noise dominant language
 
-## QUATERNION USAGE
-- [ ] Add: "Q(t) components represent abstract interacting contributions, not physical coordinates"
-- [ ] Replace all "acts on" with "is composed with"
-- [ ] State closure under defined update rule
-- [ ] Add: "Quaternion multiplication encodes ordered composition, not directional causation"
-- [ ] Remove any rotation/orientation/manifold language
+### Phase 5: PDF Visual Inspection ✓
+- [x] Layout verified
+- [x] Caption errors fixed
+- [x] 5 REN placeholders verified
 
-## ENTROPY DEFINITIONS
-- [ ] Lock to ONE definition everywhere
-- [ ] Add: "Entropy proxy is not thermodynamic and does not decrease"
-- [ ] Add: "Stabilization = limiting accumulation, not reversing value"
-- [ ] Replace "reduces entropy" → "limits entropic load accumulation"
-- [ ] Replace "reverses entropy" → "counteracts destabilizing load"
-- [ ] Replace "entropy decreases" → "biases accumulation dynamics"
+### Phase 6: Simulation Verification ✓
+- [x] Python numpy matplotlib torch verified
+- [x] All simulation results match claims
 
-## REGIME LOGIC
-- [ ] State threshold is fixed before simulation
-- [ ] Replace performance language with classification language
-- [ ] Add: "Regime indicator is descriptive classifier only"
-- [ ] Define noise distribution once and early
-- [ ] Add: "Regime transitions are noise driven, not parameter driven"
+### Phase 7: Figure Regeneration ✓
+- [x] All 12 figures regenerated from code
 
-## RESULTS SECTION
-- [ ] Replace all outcome language with "bias toward persistence"
-- [ ] State when curves are ensemble averages
-- [ ] Reinforce regime-level interpretation throughout
+### Phase 8: Data Integration ✓
+- [x] OpenNeuro ds000245 integrated
+- [x] PubChem CID 66553195 integrated
+- [x] Citations added to bib file
 
-## FORBIDDEN LANGUAGE SWEEP
-- [ ] Remove: controls → biases
-- [ ] Remove: regulates → constrains
-- [ ] Remove: modulates activity → alters likelihood
-- [ ] Remove: intervenes → shifts regime behavior
-- [ ] Remove: corrects → (delete)
-- [ ] Remove: restores → biases toward regime persistence
-- [ ] Remove: recovers → reduces likelihood of regime exit
-- [ ] Remove: improves → increases time in functional regime
-- [ ] Remove: normalizes → (delete)
-- [ ] Remove: repairs → (delete)
-- [ ] Remove: leads to → is associated with
-- [ ] Remove: causes → biases toward
-- [ ] Remove: results in → increases likelihood of
-- [ ] Remove: evolution toward → regime transition
-- [ ] Remove: pathway → noise driven shift
-- [ ] Remove: trajectory → state update under perturbation
-- [ ] Remove: flow → (delete)
-- [ ] Remove: rotation → algebraic composition
-- [ ] Remove: orientation → ordered interaction
-- [ ] Remove: manifold → bounded state representation
-- [ ] Remove: performs better → exhibits greater regime persistence
-- [ ] Remove: optimal → (delete)
+### Phase 9: CSV Files ✓
+- [x] data/data_sources.csv created
+- [x] data/results_summary.csv created
 
-## FIGURE CAPTIONS
-- [ ] Figure 1: Add "ordered interaction logic only, not spatial/network/trajectory"
-- [ ] Figure 2+: State single runs vs ensemble averages
-- [ ] Figure 2+: Rename axes to "regime indicator" or "proxy measure"
-- [ ] All figures: Must include "simulated", "model defined", "regime level", "not predictive"
-- [ ] All figures: Add variance bands if averaging used
+### Phase 10: Loop Verification ✓
+- [x] Reread manuscript
+- [x] Rerun simulations
+- [x] Regenerate figures
+- [x] Reinspect PDF
 
-## CITATIONS
-- [ ] Verify each citation supports only what it explicitly demonstrates
-- [ ] State which modality each citation refers to
-- [ ] Clarify citations motivate framing, not validate model
-- [ ] State when entropy is metaphorical/proxy based
-- [ ] Limit quaternion citations to algebra only
-- [ ] Cite PubChem strictly as registry
-- [ ] Add disclaimer for any bioactivity data
-
-## SIMULATIONS
-- [ ] Verify all equations match implemented code
-- [ ] Run full simulation pipeline
-- [ ] Save logs and seeds
-- [ ] Regenerate all figures from code
-
-## DATA INTEGRATION
-- [ ] Integrate OpenNeuro datasets with citations
-- [ ] Integrate PubChem references with citations
-- [ ] Create DATA_SOURCES.csv
-- [ ] Create RESULTS_SUMMARY.csv
-
-## REPOSITORY
-- [ ] Organize: source/, code/, data/, figures/
-- [ ] Update README.md with reproducibility instructions
-- [ ] Ensure clean compilation
-
----
-
-## GLOBAL CONSISTENCY CHECKS
-- [ ] Stability = persistence under noise (everywhere)
-- [ ] Entropy = proxy, always destabilizing (everywhere)
-- [ ] Quaternions = algebraic only (everywhere)
-- [ ] Connectivity = functional regime level (everywhere)
-- [ ] Chemistry = illustrative only (everywhere)
-- [ ] Validation = qualitative only (everywhere)
+### Phase 11: Final Audit ✓
+- [x] Forbidden language check passed
+- [x] Final micro-edits applied
+- [x] Clean recompile
+- [x] Final push to repository
