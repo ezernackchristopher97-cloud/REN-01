@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.19)  19 JAN 2026 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.19)  19 JAN 2026 19:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,85 +558,85 @@ Package pdftex.def Info: figures/reop_logo.png  used on input line 43.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/reop_logo.png (P
 NG copy)>]
 [2] [3] [4]
-Overfull \hbox (13.00644pt too wide) in paragraph at lines 143--144
+Overfull \hbox (13.00644pt too wide) in paragraph at lines 166--167
 []\OT1/cmr/m/n/12 In Parkin-son's dis-ease, as-tro-cyte dys-func-tion con-tribu
 tes to the de-gen-er-a-tion of dopamin-
  []
 
 [5]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 187
+LaTeX Font Info:    Trying to load font information for U+euf on input line 210
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []\OT1/cmr/bx/n/10.95 Context
  []
 
 
-Overfull \hbox (8.93001pt too wide) in paragraph at lines 315--316
+Overfull \hbox (8.93001pt too wide) in paragraph at lines 338--339
 []\OT1/cmr/bx/n/10.95 Quantum| 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 350.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 350.
 
 <figures/quaternion_components_healthy.png, id=735, 853.9905pt x 709.6914pt>
 File: figures/quaternion_components_healthy.png Graphic file (type png)
 <use figures/quaternion_components_healthy.png>
 Package pdftex.def Info: figures/quaternion_components_healthy.png  used on inp
-ut line 357.
+ut line 380.
 (pdftex.def)             Requested size: 430.31812pt x 357.60622pt.
 [9]
 <figures/algebraic_chain_trajectories.png, id=745, 693.5511pt x 710.655pt>
 File: figures/algebraic_chain_trajectories.png Graphic file (type png)
 <use figures/algebraic_chain_trajectories.png>
 Package pdftex.def Info: figures/algebraic_chain_trajectories.png  used on inpu
-t line 364.
+t line 387.
 (pdftex.def)             Requested size: 430.31812pt x 440.9377pt.
  [10 <./figures/quaternion_components_healthy.png>]
 <figures/coherence_order_parameter.png, id=752, 855.6768pt x 421.575pt>
 File: figures/coherence_order_parameter.png Graphic file (type png)
 <use figures/coherence_order_parameter.png>
 Package pdftex.def Info: figures/coherence_order_parameter.png  used on input l
-ine 373.
+ine 396.
 (pdftex.def)             Requested size: 430.31812pt x 212.00919pt.
  [11 <./figures/algebraic_chain_trajectories.png>] [12 <./figures/coherence_ord
 er_parameter.png>]
-Overfull \hbox (17.93149pt too wide) in paragraph at lines 413--414
+Overfull \hbox (17.93149pt too wide) in paragraph at lines 436--437
 \OT1/cmr/m/n/12 MOR or as-tro-cytic CB2 re-cep-tors (not both si-mul-ta-ne-ousl
 y on dif-fer-ent cells), the population-
  []
 
 [13] [14] [15]
-Overfull \hbox (7.26958pt too wide) in paragraph at lines 519--520
+Overfull \hbox (7.26958pt too wide) in paragraph at lines 542--543
 []$\OML/cmm/m/it/12  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; t\OT1/cmr/m/n/12 )$
 : Dopamin-er-gic ac-tiv-ity field, rep-re-sent-ing the func-tional ac-tiv-ity o
 f dopamin-
  []
 
 [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+Underfull \hbox (badness 10000) in paragraph at lines 650--650
 []\OT1/cmr/m/n/10.95 Quaternion field
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--634
+Underfull \hbox (badness 10000) in paragraph at lines 656--657
 []$\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 005$ (grid
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 638--638
+Underfull \hbox (badness 1331) in paragraph at lines 661--661
 []\OT1/cmr/m/n/10.95 Penalty for j-axis mis-align-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--643
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []\OT1/cmr/m/n/10.95 i-component sup-pres-sion
  []
 
@@ -648,13 +648,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.677  \item S
+l.700  \item S
               caling of processing by astrocytic function ($j(A \cdot Q)$)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 677
+Underfull \hbox (badness 10000) detected at line 700
 [][]
  []
 
@@ -665,13 +665,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.678  \item D
+l.701  \item D
               egradation of processing by entropy ($-k(\phi_E \cdot Q)$)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 678
+Underfull \hbox (badness 10000) detected at line 701
 [][]
  []
 
@@ -682,13 +682,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.679  \item S
+l.702  \item S
               tochastic fluctuations in recursive processing ($\eta_Q(x,t)$)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 679
+Underfull \hbox (badness 10000) detected at line 702
 [][]
  []
 
@@ -699,7 +699,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.680 \end{itemize}
+l.703 \end{itemize}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -708,7 +708,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.680 \end{itemize}
+l.703 \end{itemize}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -718,24 +718,24 @@ pt>
 File: figures/entropy_dopamine_vector_field_final.png Graphic file (type png)
 <use figures/entropy_dopamine_vector_field_final.png>
 Package pdftex.def Info: figures/entropy_dopamine_vector_field_final.png  used 
-on input line 726.
+on input line 749.
 (pdftex.def)             Requested size: 362.37569pt x 302.8661pt.
  [21]
 <figures/quaternion_attractor.png, id=831, 693.5511pt x 710.655pt>
 File: figures/quaternion_attractor.png Graphic file (type png)
 <use figures/quaternion_attractor.png>
 Package pdftex.def Info: figures/quaternion_attractor.png  used on input line 7
-39.
+62.
 (pdftex.def)             Requested size: 362.37569pt x 371.32109pt.
  [22 <./figures/entropy_dopamine_vector_field_final.png>] [23 <./figures/quater
 nion_attractor.png>] [24] [25] [26] [27]
-Overfull \hbox (7.30093pt too wide) in paragraph at lines 912--913
+Overfull \hbox (7.30093pt too wide) in paragraph at lines 935--936
 []\OT1/cmr/m/n/12 Sensitivity anal-y-sis con-firm-ing qual-i-ta-tive in-sen-si-
 tiv-ity to pa-ram-e-ter vari-a-tions within
  []
 
 
-Overfull \hbox (2.98317pt too wide) in paragraph at lines 916--917
+Overfull \hbox (2.98317pt too wide) in paragraph at lines 939--940
 []\OT1/cmr/m/it/12 Note: These are com-pu-ta-tional model pre-dic-tions re-quir
 -ing em-pir-i-cal val-i-da-tion through
  []
@@ -749,13 +749,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1019 ...ased sensors quantified G protein vs. β
+l.1042 ...ased sensors quantified G protein vs. β
                                                   -arrestin recruitment ratios
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [30] [31]
-Overfull \hbox (2.7885pt too wide) in paragraph at lines 1067--1068
+Overfull \hbox (2.7885pt too wide) in paragraph at lines 1090--1091
 \OT1/cmr/m/n/12 Computational mod-el-ing of REN-01's ef-fects em-ploys so-phis-
 ti-cated sim-u-la-tion ap-proaches: 
  []
@@ -765,7 +765,7 @@ ti-cated sim-u-la-tion ap-proaches:
 File: figures/entropy_field_degenerative.png Graphic file (type png)
 <use figures/entropy_field_degenerative.png>
 Package pdftex.def Info: figures/entropy_field_degenerative.png  used on input 
-line 1224.
+line 1247.
 (pdftex.def)             Requested size: 362.37569pt x 303.57288pt.
 
 
@@ -776,14 +776,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1233 The dopaminergic component (q₀
+l.1256 The dopaminergic component (q₀
                                        ) of Q $\psi_D(x,t)$ represents the f...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Overfull \hbox (9.19603pt too wide) in paragraph at lines 1233--1234
+Overfull \hbox (9.19603pt too wide) in paragraph at lines 1256--1257
 \OT1/cmr/m/n/12 The dopamin-er-gic com-po-nent (q) of Q $\OML/cmm/m/it/12  []\O
 T1/cmr/m/n/12 (\OML/cmm/m/it/12 x; t\OT1/cmr/m/n/12 )$ rep-re-sents the func-ti
 onal out-put of dopamin-
@@ -794,128 +794,228 @@ onal out-put of dopamin-
 File: figures/dopamine_field_ren01.png Graphic file (type png)
 <use figures/dopamine_field_ren01.png>
 Package pdftex.def Info: figures/dopamine_field_ren01.png  used on input line 1
-237.
+260.
 (pdftex.def)             Requested size: 362.37569pt x 303.57288pt.
 <figures/collapse_metric_field_final.png, id=925, 668.0157pt x 565.8741pt>
 File: figures/collapse_metric_field_final.png Graphic file (type png)
 <use figures/collapse_metric_field_final.png>
 Package pdftex.def Info: figures/collapse_metric_field_final.png  used on input
- line 1250.
+ line 1273.
 (pdftex.def)             Requested size: 362.37569pt x 306.96625pt.
  [37 <./figures/dopamine_field_ren01.png>] [38 <./figures/collapse_metric_field
-_final.png>] [39] [40] [41]
-[42] [43] [44] [45] [46]
-Overfull \hbox (1.62183pt too wide) in paragraph at lines 1629--1630
+_final.png>] [39]
+
+Package natbib Warning: Citation `OpenNeuro2018' on page 40 undefined on input 
+line 1340.
+
+
+Package natbib Warning: Citation `PubChem2024' on page 40 undefined on input li
+ne 1361.
+
+[40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
+Overfull \hbox (1.62183pt too wide) in paragraph at lines 1861--1862
 []\OT1/cmr/m/n/12 This model al-lows quan-ti-ta-tive pre-dic-tion of brain ex-p
 o-sure based on peptide-enhanced
  []
 
-[47]
-<figures/patient_trajectory.png, id=1030, 855.195pt x 421.8159pt>
+<figures/patient_trajectory.png, id=1070, 855.195pt x 421.8159pt>
 File: figures/patient_trajectory.png Graphic file (type png)
 <use figures/patient_trajectory.png>
-Package pdftex.def Info: figures/patient_trajectory.png  used on input line 165
-9.
+Package pdftex.def Info: figures/patient_trajectory.png  used on input line 189
+1.
 (pdftex.def)             Requested size: 362.37569pt x 178.73837pt.
- [48 <./figures/patient_trajectory.png>]
-Overfull \hbox (0.41844pt too wide) in paragraph at lines 1682--1683
+[52]
+Overfull \hbox (0.41844pt too wide) in paragraph at lines 1914--1915
  []\OT1/cmr/bx/n/12 Receptor-Targeted Pep-tide Shut-tles[] \OT1/cmr/m/n/12 Pep-
 tides tar-get-ing spe-cific re-cep-tors ex-pressed
  []
 
 
-Overfull \hbox (0.99962pt too wide) in paragraph at lines 1685--1686
+Overfull \hbox (0.99962pt too wide) in paragraph at lines 1917--1918
 []\OT1/cmr/m/n/12 Transferrin re-cep-tor (TfR)-binding pep-tides achieve brain 
 de-liv-ery through receptor-
  []
 
-
-Overfull \hbox (5.72598pt too wide) in paragraph at lines 1686--1687
+[53 <./figures/patient_trajectory.png>]
+Overfull \hbox (5.72598pt too wide) in paragraph at lines 1918--1919
 []\OT1/cmr/m/n/12 Low-density lipopro-tein receptor-related pro-tein 1 (LRP1)-t
 argeting pep-tides demon-
  []
 
 
-Overfull \hbox (2.82751pt too wide) in paragraph at lines 1690--1691
+Overfull \hbox (2.82751pt too wide) in paragraph at lines 1922--1923
 []\OT1/cmr/m/n/12 Our op-ti-mized TfR-binding pep-tide (THRPPMWSPVWP) sug-gests
  high-affinity bind-
  []
 
 
-Overfull \hbox (1.19545pt too wide) in paragraph at lines 1702--1703
+Overfull \hbox (1.19545pt too wide) in paragraph at lines 1934--1935
 []\OT1/cmr/m/n/12 For acute in-ter-ven-tions re-quir-ing rapid brain pen-e-tra-
 tion, we have de-vel-oped a peptide-
  []
 
-[49]
-Overfull \hbox (4.13142pt too wide) in paragraph at lines 1722--1723
+[54]
+Overfull \hbox (4.13142pt too wide) in paragraph at lines 1954--1955
  []\OT1/cmr/bx/n/12 Computational Pep-tide De-sign Op-ti-miza-tion[] \OT1/cmr/m
 /n/12 Ad-vanced com-pu-ta-tional ap-proaches
  []
 
 
-Overfull \hbox (14.03839pt too wide) in paragraph at lines 1730--1731
+Overfull \hbox (14.03839pt too wide) in paragraph at lines 1962--1963
 []\OT1/cmr/m/n/12 Our com-pu-ta-tional pipeline has iden-ti-fied a min-i-mal 7-
 amino acid se-quence (FRHKQLW)
  []
 
-[50] [51] [52]
-Overfull \hbox (1.74413pt too wide) in paragraph at lines 1817--1818
+[55] [56] [57]
+Overfull \hbox (1.74413pt too wide) in paragraph at lines 2049--2050
 []\OT1/cmr/bx/n/12 Validation re-quire-ments\OT1/cmr/m/n/12 : All model pre-dic
 -tions, in-clud-ing col-lapse met-ric thresh-
  []
 
-[53] [54] [55] [56]
-Overfull \hbox (3.25375pt too wide) in paragraph at lines 1946--1947
+[58] [59] [60]
+Overfull \hbox (3.25375pt too wide) in paragraph at lines 2178--2179
 []\OT1/cmr/m/n/12 Successful reg-u-la-tory nav-i-ga-tion of dual-targeting com-
 pounds through fo-cused mech-
  []
 
-[57] [58] [59] [60] [61] [62]
-Overfull \hbox (2.08162pt too wide) in paragraph at lines 2173--2174
+[61] [62] [63] [64] [65] [66]
+Overfull \hbox (2.08162pt too wide) in paragraph at lines 2405--2406
 []\OT1/cmr/bx/n/12 High-performance com-put-ing im-ple-men-ta-tions\OT1/cmr/m/n
 /12 : En-abling sim-u-la-tion of larger
  []
 
-[63] [64] [65]
-Overfull \hbox (1.7288pt too wide) in paragraph at lines 2273--2274
+[67] [68] [69]
+Overfull \hbox (1.7288pt too wide) in paragraph at lines 2505--2506
 []\OT1/cmr/bx/n/12 Innovative trial de-signs\OT1/cmr/m/n/12 : Im-ple-ment-ing a
 dap-tive pro-to-cols and en-rich-ment strate-
  []
 
-[66] [67] (./ren01.bbl [68] [69] [70]) [71] (./ren01.aux)
-Package rerunfilecheck Info: File `ren01.out' has not changed.
-(rerunfilecheck)             Checksum: 377DEAA966FEA3DB40FF1BBAB1642FF2;28159.
+[70] [71] (./ren01.bbl [72] [73] [74])
+
+Package natbib Warning: There were undefined citations.
+
+[75] (./ren01.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `ren01.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ren01.out':
+(rerunfilecheck)             Before: 377DEAA966FEA3DB40FF1BBAB1642FF2;28159
+(rerunfilecheck)             After:  32D60016D79E1A0908E058E9A1D5F84E;30241.
  ) 
 Here is how much of TeX's memory you used:
- 14638 strings out of 480171
- 234219 string characters out of 5894489
+ 14699 strings out of 480171
+ 235192 string characters out of 5894489
  547322 words of memory out of 5000000
- 31894 multiletter control sequences out of 15000+600000
+ 31900 multiletter control sequences out of 15000+600000
  484506 words of font info for 84 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,12n,63p,1490b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/ubuntu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.60
-0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ren01.pdf (71 pages, 6538832 bytes).
+ 60i,14n,63p,1490b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsubsection.10.4.6} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.4.5} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.4.4} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.4.3} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.4.2} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.4.1} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.3.3} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.3.2} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.3.1} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.2.3} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.2.2} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.2.1} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.1.3} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.1.2} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.1.1} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.9.8.5} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.8.8.4} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.8.8.3} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.8.8.2} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.8.8.1} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.8.8} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.8.7} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.8.6} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.8.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.8.3.2} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.8.3.1} has been referenced but does n
+ot exist, replaced by a fixed one
+
+ </home/ubuntu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ren01.pdf (75 pages, 6571577 bytes).
 PDF statistics:
- 1466 PDF objects out of 1728 (max. 8388607)
- 1320 compressed objects within 14 object streams
- 488 named destinations out of 1000 (max. 500000)
+ 1557 PDF objects out of 1728 (max. 8388607)
+ 1402 compressed objects within 15 object streams
+ 543 named destinations out of 1000 (max. 500000)
  1059 words of extra memory for PDF output out of 10000 (max. 10000000)
 
