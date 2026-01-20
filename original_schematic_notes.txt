@@ -1,0 +1,28 @@
+Original Schematic from Page 5 of Manuscript:
+
+Title: "REN-01: Complete Blood-Brain Barrier Drug Delivery System"
+
+Layout: Two-column flowchart showing left side (formulation/delivery) and right side (targets/mechanisms)
+
+Left Column (Light blue/green boxes):
+1. MIF Stealth Complex (Receptor + Nanocarrier, Stealth + Facile Biosensors, Minimal + Immune Activation)
+2. PEGylated Lipid Bilayer (Lipid Bilayer Core (DSPE-PEG), Stealth Coating (PEG Layer), Active Targeting (Transferrin))
+3. PEGylated Lipid Bilayer (Lipid Bilayer Core (DSPE-PEG), Stealth Coating (PEG Layer), Active Targeting (Transferrin))
+4. Transferrin Linker System (Surface Transferrin Conjugation, BBB Receptor Targeting, Receptor-Ligand Uptake)
+5. BBB Penetration Matrix (Permeability Coefficient, Receptor Saturation, Uptake Efficiency)
+6. CSF Barrier Protocol (Clearance + CSF Efflux, Penetration Mechanism, Protein Binding)
+
+Center: Red dashed line representing BBB with "BLOOD-BRAIN BARRIER" label
+
+Right Column (Pink/purple/green boxes):
+1. Enhanced Drugs (Nrf2-mediated uptake, Glutathione + Lysosomal, Astrocyte Targeting)
+2. Activation Trigger (Dual Ligand + MOR Activation, Entropy Modulation, Integrated Feedback Loop)
+3. Dual Target Release (Dopaminergic Activation, Astrocyte Modulation, Neuronal-Glial Coupling)
+4A. MOR-biased Core Packaging (Selective Receptor Activation, Dopamine Pathway Engagement, Reduced Beta-Arrestin)
+4B. CB2 Ligand Pathways (CB2 Receptor Targeting, Anti-inflammatory Response, Neuroprotective Signaling)
+5. Neuronal Circuitry (Dopaminergic Restoration, Neuronal Glial Coupling, Entropy Stabilization)
+6. Therapeutic Outcomes (Symptom Alleviation, Dopamine Axis Stability, Neuronal Circuit Integrity)
+
+Bottom: Beige box with key interventions and molecular framework
+
+Style: Professional flowchart with color-coded boxes, arrows showing flow, central BBB barrier, comprehensive delivery and mechanism pathway
