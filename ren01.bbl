@@ -190,6 +190,12 @@ Naber, G.~L. (1997).
   {\em Texts in Applied Mathematics}.
 \newblock Springer.
 
+\bibitem[{National Center for Biotechnology Information}, 2024]{PubChem2024}
+{National Center for Biotechnology Information} (2024).
+\newblock Pubchem.
+\newblock \url{https://pubchem.ncbi.nlm.nih.gov}.
+\newblock Accessed: 2024.
+
 \bibitem[Nielsen and Chuang, 2010]{nielsen2010quantum}
 Nielsen, M.~A. and Chuang, I.~L. (2010).
 \newblock {\em Quantum Computation and Quantum Information}.
@@ -207,6 +213,13 @@ Olanow, C.~W., Stern, M.~B., and Sethi, K. (2009).
 \newblock The scientific and clinical basis for the treatment of parkinson
   disease.
 \newblock {\em Neurology}, 72(21 Suppl 4):S1--S136.
+
+\bibitem[{OpenNeuro}, 2024]{OpenNeuro2024}
+{OpenNeuro} (2024).
+\newblock Openneuro: A free and open platform for sharing mri, meg, eeg, ieeg,
+  ecog, asl, and pet data.
+\newblock \url{https://openneuro.org}.
+\newblock Accessed: 2024.
 
 \bibitem[Poewe et~al., 2017]{Poewe2017}
 Poewe, W., Seppi, K., Tanner, C.~M., Halliday, G.~M., Brundin, P., Volkmann,

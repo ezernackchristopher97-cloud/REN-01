@@ -162,3 +162,29 @@
 - Citations linked in manuscript text
 
 ---
+
+## Pass 6: Loop Verification - 2026-01-20
+**Status:** COMPLETE
+
+### Verification Completed:
+1. **Abstract** - Verified on page 1
+   - OpenNeuro (2024) citation rendering correctly
+   - PubChem National Center for Biotechnology Information (2024) citation rendering
+   - All mathematical notation correct (chi, psi_D, phi_E)
+   - Regime values displayed correctly
+
+2. **Citations** - All resolved
+   - No undefined citations in log
+   - OpenNeuro2024 and PubChem2024 properly linked
+   - Fixed duplicate bib entries
+   - Fixed missing closing brace in bib file
+
+3. **Compilation** - Clean
+   - 79 pages, 5.1 MB
+   - No errors in log
+
+### Files Fixed:
+- ren01.tex: Fixed double backslash in citations
+- references39.bib: Removed duplicates, fixed closing brace
+
+---
