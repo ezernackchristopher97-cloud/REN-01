@@ -1,0 +1,18 @@
+{
+  "statistics": {
+    "healthy_vs_degen": {
+      "t": 41.602788364603626,
+      "p": 3.294372347256861e-220
+    },
+    "ren01_vs_degen": {
+      "t": 44.847792252632765,
+      "p": 1.993632265534469e-241
+    },
+    "healthy_vs_ren01": {
+      "t": -21.79055926292091,
+      "p": 2.020096864527575e-86
+    }
+  },
+  "pass": true,
+  "criterion": "All pairwise comparisons p < 0.01"
+}

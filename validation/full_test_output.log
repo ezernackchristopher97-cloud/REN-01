@@ -1,0 +1,96 @@
+================================================================================
+REN-01 REGIME UNIQUENESS TEST SUITE
+================================================================================
+
+Starting regime uniqueness test suite...
+Random seed: 42
+Output directory: /home/ubuntu/REN-01/validation/output
+Figure directory: /home/ubuntu/REN-01/validation/figures
+
+================================================================================
+EXECUTING TESTS
+================================================================================
+
+================================================================================
+TEST R1: ATTRACTOR TOPOLOGY VERIFICATION
+================================================================================
+
+Analyzing healthy attractor...
+  Loop period: 600
+  Attractor volume: 9465.486017
+  Mean distance from centroid: 8.0560 ± 6.6301
+
+Analyzing degenerative attractor...
+  Loop period: 531
+  Attractor volume: 6951.105053
+  Mean distance from centroid: 10.0267 ± 6.5731
+
+Analyzing ren01 attractor...
+  Loop period: 546
+  Attractor volume: 8705.451457
+  Mean distance from centroid: 8.3299 ± 6.2117
+
+--------------------------------------------------------------------------------
+STATISTICAL COMPARISON
+--------------------------------------------------------------------------------
+Mean distance ratio (degen/healthy): 1.24
+Mean distance ratio (degen/ren01): 1.20
+
+Test R1 Result: PASS
+
+================================================================================
+TEST R2: BASIN OF ATTRACTION MAPPING
+================================================================================
+
+Sampling 500 initial conditions on S³...
+
+Testing healthy basin...
+  Progress: 0/500
+  Progress: 100/500
+  Progress: 200/500
+  Progress: 300/500
+  Progress: 400/500
+  Final χ: 209.4481 ± 57.9763
+
+Testing degenerative basin...
+  Progress: 0/500
+  Progress: 100/500
+  Progress: 200/500
+  Progress: 300/500
+  Progress: 400/500
+  Final χ: 94.0542 ± 21.8582
+
+Testing ren01 basin...
+  Progress: 0/500
+  Progress: 100/500
+  Progress: 200/500
+  Progress: 300/500
+  Progress: 400/500
+  Final χ: 339.8631 ± 120.4684
+
+--------------------------------------------------------------------------------
+STATISTICAL COMPARISON
+--------------------------------------------------------------------------------
+Healthy vs Degenerative: t=41.60, p=3.29e-220
+REN-01 vs Degenerative: t=44.85, p=1.99e-241
+Healthy vs REN-01: t=-21.79, p=2.02e-86
+
+Test R2 Result: PASS
+Traceback (most recent call last):
+  File "/home/ubuntu/REN-01/validation/regime_uniqueness_tests.py", line 455, in <module>
+    all_results['R2'] = test_r2_basin_of_attraction()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/REN-01/validation/regime_uniqueness_tests.py", line 288, in test_r2_basin_of_attraction
+    json.dump({k: v for k, v in results.items() if k != 'healthy' and k != 'degenerative' and k != 'ren01'}, f, indent=2)
+  File "/usr/lib/python3.11/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

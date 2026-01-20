@@ -1,0 +1,37 @@
+{
+  "healthy": {
+    "loop_period": 600,
+    "volume": 9465.486016846056,
+    "density": 0.21129395748306098,
+    "mean_distance": 8.055974404819109,
+    "std_distance": 6.630094746622165,
+    "trajectory_shape": [
+      2000,
+      3
+    ]
+  },
+  "degenerative": {
+    "loop_period": 531,
+    "volume": 6951.105052724067,
+    "density": 0.28772403593816953,
+    "mean_distance": 10.026664803795729,
+    "std_distance": 6.573137589491044,
+    "trajectory_shape": [
+      2000,
+      3
+    ]
+  },
+  "ren01": {
+    "loop_period": 546,
+    "volume": 8705.451457216004,
+    "density": 0.22974110071478995,
+    "mean_distance": 8.32986608496858,
+    "std_distance": 6.211659284619182,
+    "trajectory_shape": [
+      2000,
+      3
+    ]
+  },
+  "pass": true,
+  "criterion": "Degenerative attractor shows >10% larger spread than healthy/REN-01"
+}
