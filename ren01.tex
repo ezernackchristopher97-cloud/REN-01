@@ -16,7 +16,6 @@
 \usepackage{textcomp}
 \usepackage{gensymb}
 \usepackage[english]{babel}
-\usepackage[utf8]{inputenc}
 
 
 % Setting page margins
@@ -520,6 +519,14 @@ The foundation of REN-01 is a modified version of oliceridine (TRV130), a clinic
 
 The core structure has been modified to further enhance G protein bias and reduce addiction potential through strategic alterations to the N-substituent and the 3-methoxybenzamide moiety. Specifically, the introduction of a fluorine at the 2-position of the 3-methoxybenzamide and the incorporation of a cyclopropylmethyl group at the nitrogen position enhance G protein signaling while minimizing $\beta$-arrestin recruitment.
 
+% PLACEHOLDER: Insert TRV130 core structure figure here
+\begin{figure}[H]
+\centering
+\fbox{\parbox{0.9\textwidth}{\centering\vspace{2cm}\textbf{[PLACEHOLDER: TRV130 Core Structure]}\\Insert ChemDraw structure of modified TRV130 core here\\Showing: 2-F-3-methoxybenzamide modification and N-cyclopropylmethyl group\vspace{2cm}}}
+\caption{\textbf{Modified TRV130 Core Structure.} [User to provide molecular structure diagram showing the modified oliceridine core with fluorine substitution at the 2-position of the 3-methoxybenzamide moiety and cyclopropylmethyl group at the nitrogen position.]}
+\label{fig:trv130_core}
+\end{figure}
+
 These modifications provide gentle modulation of dopaminergic tone without inducing euphoria or addiction. The goal is to stabilize neural firing patterns rather than overwhelm the system with dopamine release, as occurs with traditional opioids.
 
 \subsection{Dual-Target Population Engagement}
@@ -583,6 +590,16 @@ The entropy-modulating function of this moiety operates through:
 The complete REN-01 molecule can be represented schematically as:
 
 [Modified TRV130 Core]--[PEG Linker]--[CB2 Ligand]--[Redox-Peptide]
+
+% PLACEHOLDER: Insert molecular structure figure here
+% User to provide ChemDraw or equivalent molecular structure diagram
+% Suggested figure caption: "Figure X: Complete molecular structure of REN-01 showing the modified TRV130 core, PEG linker, CB2 ligand moiety, and redox-sensitive peptide domain."
+\begin{figure}[H]
+\centering
+\fbox{\parbox{0.9\textwidth}{\centering\vspace{2cm}\textbf{[PLACEHOLDER: Molecular Structure Diagram]}\\Insert ChemDraw or equivalent molecular structure here\\Showing: Modified TRV130 Core -- PEG Linker -- CB2 Ligand -- Redox-Peptide\vspace{2cm}}}
+\caption{\textbf{Complete Molecular Structure of REN-01.} [User to provide molecular structure diagram showing the modified TRV130 core, PEG linker, CB2 ligand moiety, and redox-sensitive peptide domain.]}
+\label{fig:molecular_structure}
+\end{figure}
 
 
 
@@ -801,10 +818,6 @@ The scalar projections ($\phi_E$, $\psi_D$, $A$) provide physiologically interpr
 \end{itemize}
 
 \textbf{Critical distinction:} The scalar fields are NOT independent dynamical variables. They are derived quantities computed from Q at each timestep. The fundamental dynamics occur in quaternion space, with scalar fields serving as diagnostic projections for physiological interpretation.
- \item Scaling of processing by astrocytic function ($j(A \cdot Q)$)
- \item Degradation of processing by entropy ($-k(\phi_E \cdot Q)$)
- \item Stochastic fluctuations in recursive processing ($\eta_Q(x,t)$)
-\end{itemize}
 
 \subsection{Critical Transitions and Stability Analysis}
 
@@ -1129,7 +1142,7 @@ The identification and optimization of REN-01's molecular components employed cu
  \item Fragment-based drug discovery using surface plasmon resonance (SPR) and nuclear magnetic resonance (NMR) screening identified optimal binding moieties for both MOR and CB2 receptors 
  \item Iterative parallel synthesis with automated purification systems generated over 450 candidate compounds for initial evaluation 
  \item Machine learning-guided optimization using quantitative structure-activity relationship (QSAR) models accelerated the refinement process 
- \item Biased signaling assays using BRET-based sensors quantified G protein vs. β-arrestin recruitment ratios 
+ \item Biased signaling assays using BRET-based sensors quantified G protein vs. $\beta$-arrestin recruitment ratios 
 \end{itemize}
 
 These approaches reduced development time by approximately 40\% compared to traditional methods while improving target selectivity profiles by 2.3-fold.
@@ -1338,7 +1351,7 @@ The entropy field is not static but evolves dynamically in response to neural ac
 
 \subsection{Dopaminergic Activity Field}
 
-The dopaminergic component (q₀) of Q $\psi_D(x,t)$ represents the functional output of dopaminergic neurons across space and time. This field captures both the tonic background activity and phasic signaling events that are crucial for motor control and reward processing.
+The dopaminergic component ($q_0$) of Q $\psi_D(x,t)$ represents the functional output of dopaminergic neurons across space and time. This field captures both the tonic background activity and phasic signaling events that are crucial for motor control and reward processing.
 
 % See Figure 1c above for REN-01 quaternion components
 
