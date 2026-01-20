@@ -47,7 +47,7 @@
 \end{center}
 
 \begin{abstract}
-REN-01 is a proposed therapeutic compound hypothesized to address progressive dopaminergic neurodegeneration in atypical Parkinsonian presentations through stabilization of recursive entropy dynamics. Based on the Entropic Phase Transition Collapse (EntPTC2) framework, REN-01 integrates a G protein biased $\mu$-opioid receptor agonist with astrocyte targeting and entropy modulating domains. Unlike traditional approaches focused on dopamine replacement or symptom management, REN-01 targets an informational collapse process hypothesized to precede neurodegeneration. Mathematical modeling uses a quaternion valued field on $S^3$ with physiologically interpretable scalar projections: entropy field $\phi_E = q_1^2 + q_2^2 + q_3^2$, dopamine field $\psi_D = q_0^2$, and astrocyte function $A = q_2^2$. Simulations use empirical parameters from OpenNeuro dataset ds000245 (n=45 Parkinson disease subjects, OSITJ dopamine proxy scores: controls 10.40, PD with dementia 1.73, representing 83\% deficit) and PubChem compound CID 66553195 (TRV130/oliceridine, MOR K$_i$ $\sim$5 nM yielding $\alpha_D$=0.667). Results demonstrate three distinct dynamical regimes: healthy (collapse metric $\chi$=5.17$\pm$0.83, $\psi_D$=0.87), degenerative ($\chi$=0.92$\pm$0.31, $\psi_D$=0.14), and REN-01 treatment ($\chi$=6.90$\pm$1.05, $\psi_D$=0.91). Regime uniqueness tests (R1-R3) confirm statistical significance (p<10$^{-80}$) with 24\% larger attractor spread in degenerative state. Ablation studies identify MOR agonism as the dominant therapeutic mechanism (75\% contribution), with CB2 activation (18\%) and entropy modulation (7\%) providing synergistic enhancement. We present a chemical structure, mathematical framework, simulation results with empirical calibration, and experimental validation framework for this therapeutic approach.
+REN-01 is a proposed compound designed to bias regime persistence in dopaminergic neural circuits under stochastic perturbation. Based on the Entropic Phase Transition Collapse (EntPTC2) framework, REN-01 integrates a G protein biased $\mu$-opioid receptor agonist with astrocyte targeting and entropy modulating domains. Unlike traditional approaches focused on dopamine replacement or symptom management, REN-01 serves as a test perturbation of regime dynamics in a model of informational instability hypothesized to precede neurodegeneration. Mathematical modeling uses a quaternion valued algebraic framework on $S^3$ with scalar projections serving as model-defined proxy measures: entropy proxy $\phi_E = q_1^2 + q_2^2 + q_3^2$, dopamine proxy $\psi_D = q_0^2$, and astrocyte proxy $A = q_2^2$. Quaternion components represent abstract interacting contributions to regime persistence and do not correspond to physical coordinates, rotations, or measurable neural variables. The entropy proxy is not thermodynamic entropy and does not decrease; stabilization corresponds to limiting its accumulation rather than reversing its value. Simulations use empirical parameters from OpenNeuro dataset ds000245 (n=45 Parkinson disease subjects, OSITJ dopamine proxy scores: controls 10.40, PD with dementia 1.73, representing 83\% deficit) and PubChem compound CID 66553195 (TRV130/oliceridine, MOR K$_i$ $\sim$5 nM yielding $\alpha_D$=0.667). Results demonstrate three distinct dynamical regimes: healthy (collapse metric $\chi$=5.17$\pm$0.83, $\psi_D$=0.87), degenerative ($\chi$=0.92$\pm$0.31, $\psi_D$=0.14), and REN-01 condition ($\chi$=6.90$\pm$1.05, $\psi_D$=0.91). Regime uniqueness tests (R1-R3) confirm statistical significance (p<10$^{-80}$) with 24\% larger attractor spread in degenerative state. Ablation studies identify MOR agonism as the dominant mechanism biasing regime persistence (75\% contribution), with CB2 activation (18\%) and entropy modulation (7\%) providing synergistic enhancement. We present a chemical structure, mathematical framework, simulation results with empirical calibration, and experimental validation framework for this modeling approach.
 \end{abstract}
 
 \vspace{1em}
@@ -56,7 +56,7 @@ REN-01 is a proposed therapeutic compound hypothesized to address progressive do
 
 \section{Introduction}
 
-Parkinson's disease (PD) represents one of the most common neurodegenerative disorders, affecting approximately 1\% of the population over 60 years of age and rising to nearly 4\% in those over 80 \cite{Poewe2017,Kalia2015}. The hallmark pathology involves the progressive loss of dopaminergic neurons in the substantia nigra pars compacta, leading to the characteristic motor symptoms of bradykinesia, rigidity, resting tremor, and postural instability \cite{Dauer2003,Braak2003}. Despite decades of research, current therapeutic approaches remain limited to symptomatic management, with no approved treatments capable of halting or reversing the underlying neurodegenerative process \cite{Olanow2009,Schapira2008}.
+Parkinson's disease (PD) represents one of the most common neurodegenerative disorders, affecting approximately 1\% of the population over 60 years of age and rising to nearly 4\% in those over 80 \cite{Poewe2017,Kalia2015}. The hallmark pathology involves the progressive loss of dopaminergic neurons in the substantia nigra pars compacta, associated with the characteristic motor symptoms of bradykinesia, rigidity, resting tremor, and postural instability \cite{Dauer2003,Braak2003}. Despite decades of research, current therapeutic approaches remain limited to symptomatic management, with no approved treatments capable of halting or reversing the underlying neurodegenerative process \cite{Olanow2009,Schapira2008}.
 
 The etiology of PD is complex and multifactorial, involving genetic susceptibility, environmental factors, mitochondrial dysfunction, oxidative stress, protein misfolding, and neuroinflammation \cite{Dauer2003,Surmeier2017,Spillantini1997}. However, these diverse pathological mechanisms converge on a common outcome: the selective vulnerability and progressive degeneration of dopaminergic neurons. This convergence suggests the existence of a unifying principle that explains why these neurons are particularly susceptible to degeneration and how this process unfolds over time.
 
@@ -89,7 +89,7 @@ Each REN variant adapts the recursive entropy model to a different dominant fail
 \begin{figure}[H]
  \centering
  \includegraphics[width=0.98\textwidth]{figures/system_schematic.png}
- \caption{\textbf{REN-01 Complete Blood Brain Barrier Drug Delivery System.} Comprehensive schematic showing the complete therapeutic pathway from formulation to therapeutic outcomes. Left column (light blue/green boxes): Drug delivery system components including MIF Stealth Complex, PEGylated Lipid Bilayer, Transferrin Linker System, BBB Penetration Matrix, and CSF Barrier Protocol. Center (red dashed line): Blood Brain Barrier with receptor mediated transcytosis. Right column (pink/purple/green boxes): Therapeutic mechanisms including Enhanced Drugs (Nrf2 mediated uptake), Activation Trigger (dual ligand MOR activation), Dual Target Release (dopaminergic activation and astrocyte modulation), MOR biased Core Packaging (selective receptor activation), CB2 Ligand Pathways (anti-inflammatory response), Neuronal Circuitry (dopaminergic restoration), and Therapeutic Outcomes (symptom alleviation and dopamine axis stability). Bottom (beige box): Key interventions including MIF targeted nanocarrier framework, BBB based drug delivery, PEGylation linker, transferrin mediated transport, entropy modulation, astrocyte neuronal coupling, dopaminergic restoration, EntPTC2 framework, MOR CB2 ligand pairing, and TRV130 derivative variant.}
+ \caption{\textbf{REN-01 Complete Blood Brain Barrier Drug Delivery System.} Comprehensive schematic showing the complete therapeutic pathway from formulation to therapeutic outcomes. Left column (light blue/green boxes): Drug delivery system components including MIF Stealth Complex, PEGylated Lipid Bilayer, Transferrin Linker System, BBB Penetration Matrix, and CSF Barrier Protocol. Center (red dashed line): Blood Brain Barrier with receptor mediated transcytosis. Right column (pink/purple/green boxes): Therapeutic mechanisms including Enhanced Drugs (Nrf2 mediated uptake), Activation Trigger (dual ligand MOR activation), Dual Target Release (dopaminergic activation and astrocyte modulation), MOR biased Core Packaging (selective receptor activation), CB2 Ligand Activation (anti-inflammatory response), Neuronal Circuitry (dopaminergic regime stabilization), and Therapeutic Outcomes (symptom alleviation and dopamine axis stability). Bottom (beige box): Key interventions including MIF targeted nanocarrier framework, BBB based drug delivery, PEGylation linker, transferrin mediated transport, entropy modulation, astrocyte neuronal coupling, dopaminergic regime stabilization, EntPTC2 framework, MOR CB2 ligand pairing, and TRV130 derivative variant. This diagram illustrates ordered interaction logic only and does not represent spatial geometry, network topology, or system trajectories. All components are model-defined and simulated.}
  \label{fig:system_schematic}
 \end{figure}
 
@@ -100,7 +100,7 @@ Each REN variant adapts the recursive entropy model to a different dominant fail
 \begin{figure}[H]
 \centering
 \fbox{\parbox{0.9\textwidth}{\centering\vspace{2cm}\textbf{[PLACEHOLDER: REN-01 Molecular Structure]}\\Insert ChemDraw structure of REN-01 here\\\textit{Parkinson's Disease Variant}\\Components: G protein biased MOR core (TRV130 derivative) + PEG5 triazole linker + CB2 selective ligand (HU-308 derivative) + Redox sensitive peptide domain (C-FPLPA-C)\\Molecular weight: $\sim$1500-1600 Da\vspace{2cm}}}
-\caption{\textbf{REN-01 Molecular Structure (Parkinson's Disease).} [User to provide molecular structure diagram showing the complete REN-01 conjugate: modified TRV130 core with G protein bias, PEG5 triazole linker for optimal flexibility, CB2 selective ligand for astrocyte targeting, and redox sensitive peptide domain for entropy modulation. Target: dopaminergic entropy collapse in substantia nigra.]}
+\caption{\textbf{REN-01 Molecular Structure (Parkinson's Disease).} [User to provide molecular structure diagram showing the complete REN-01 conjugate: modified TRV130 core with G protein bias, PEG5 triazole linker for enhanced flexibility, CB2 selective ligand for astrocyte targeting, and redox sensitive peptide domain for entropy modulation. Target: dopaminergic entropy collapse in substantia nigra.]}
 \label{fig:ren01_structure}
 \end{figure}
 
@@ -128,7 +128,7 @@ Each REN variant adapts the recursive entropy model to a different dominant fail
 \begin{figure}[H]
 \centering
 \fbox{\parbox{0.9\textwidth}{\centering\vspace{2cm}\textbf{[PLACEHOLDER: REN-05 Molecular Structure]}\\Insert ChemDraw structure of REN-05 here\\\textit{Epilepsy Variant}\\Components: GABA modulator core + PEG2 linker (alternate topology) + CB2 selective ligand + Oscillation stabilizing peptide\\Molecular weight: $\sim$1350-1450 Da\vspace{2cm}}}
-\caption{\textbf{REN-05 Molecular Structure (Epilepsy).} [User to provide molecular structure diagram showing the REN-05 conjugate targeting unstable neural oscillations and feedback loops. Features alternate topology PEG2 linker and GABA modulator core for stabilization of hyperexcitable circuits.]}
+\caption{\textbf{REN-05 Molecular Structure (Epilepsy).} [User to provide molecular structure diagram showing the REN-05 conjugate targeting unstable neural oscillations and feedback loops. Features alternate topology PEG2 linker and GABA modulator core for regime stabilization of hyperexcitable circuits.]}
 \label{fig:ren05_structure}
 \end{figure}
 
@@ -143,25 +143,25 @@ The application of entropy concepts to neural function has gained significant tr
 In neural systems, entropy can be conceptualized at multiple levels:
 
 \begin{enumerate}
- \item \textbf{Spike train entropy}: The unpredictability of neuronal firing patterns, with optimal information processing requiring a balance between randomness and structure \cite{Bandt2002,Costa2005}
+ \item \textbf{Spike train entropy}: The unpredictability of neuronal firing patterns, with enhanced information processing requiring a balance between randomness and structure \cite{Bandt2002,Costa2005}
  
  \item \textbf{Network entropy}: The diversity and unpredictability of functional connections between neurons, which must be flexible enough to support computation but stable enough to maintain coherent function \cite{Tononi2016,Breakspear2017}
  
  \item \textbf{State space entropy}: The distribution of possible neural system states and transitions between them, with healthy function requiring constrained exploration of this space \cite{Friston2010,Deco2009} 
 \end{enumerate}
 
-Dopaminergic neurons play a crucial role in regulating entropy across the brain, particularly in reward-related learning and action selection \cite{Schultz1997,DiChiara1988}. The phasic firing of these neurons signals reward prediction errors, reducing entropy in target structures by reinforcing specific neural pathways.
+Dopaminergic neurons play a crucial role in influencing entropy dynamics across the brain, particularly in reward-related learning and action selection \cite{Schultz1997,DiChiara1988}. The phasic firing of these neurons signals reward prediction errors, biasing regime persistence in target structures by reinforcing specific neural regime coupling.
 
 \subsection{Astrocyte-Neuron Interactions in Entropy Regulation}
 
-Astrocytes, once considered passive support cells, are now recognized as active participants in neural information processing \cite{Sofroniew2010,Khakh2015,Araque2009}. These glial cells regulate multiple aspects of neuronal function that directly impact entropy dynamics:
+Astrocytes, once considered passive support cells, are now recognized as active participants in neural information processing \cite{Sofroniew2010,Khakh2015,Araque2009}. These glial cells influence multiple aspects of neuronal function that directly impact entropy dynamics:
 
 \begin{enumerate}
  \item \textbf{Glutamate uptake}: By clearing glutamate from synaptic clefts, astrocytes prevent excitotoxicity and maintain signal fidelity \cite{Rothstein1996,Dringen2000}
  
  \item \textbf{Potassium buffering}: Astrocytic regulation of extracellular potassium concentrations stabilizes neuronal excitability and firing patterns \cite{Kofuji2004}
  
- \item \textbf{Gliotransmission}: Release of neuroactive substances from astrocytes modulates synaptic transmission and neuronal excitability \cite{Araque2009}
+ \item \textbf{Gliotransmission}: Release of neuroactive substances from astrocytes influences synaptic transmission and neuronal excitability \cite{Araque2009}
  
  \item \textbf{Metabolic support}: Astrocytes provide energy substrates to neurons, contributing to their metabolic needs are met during periods of high activity \cite{Sofroniew2010} 
 \end{enumerate}
@@ -170,20 +170,20 @@ In Parkinson's disease, astrocyte dysfunction contributes to the degeneration of
 
 \subsection{Recursive Breakdown in Dopaminergic Circuits}
 
-The basal ganglia, where dopaminergic neurons play a central role, form a complex recursive circuit that modulates movement, cognition, and reward processing \cite{Mink1996,DeLong2007,Obeso2008}. This recursive architecture allows for sophisticated information processing but also creates vulnerability to cascading failure \cite{Bergman1998}.
+The basal ganglia, where dopaminergic neurons play a central role, form a complex recursive circuit that influences movement, cognition, and reward processing \cite{Mink1996,DeLong2007,Obeso2008}. This recursive architecture allows for sophisticated information processing but also creates vulnerability to cascading failure \cite{Bergman1998}.
 
 In the EntPTC2 model, the degeneration of dopaminergic neurons is conceptualized as a recursive entropy cascade:
 
 \begin{enumerate}
  \item Initial stressors (e.g., oxidative damage, protein aggregation) increase local entropy in dopaminergic neurons
  
- \item This entropy increase disrupts precise firing patterns, reducing the neurons' ability to appropriately modulate their target structures
+ \item This entropy increase disrupts precise firing patterns, reducing the neurons' ability to appropriately influence their target structures
  
  \item Target structures experience increased entropy in their own activity patterns
  
  \item Through feedback connections, this increased entropy further stresses dopaminergic neurons
  
- \item A positive feedback loop develops, accelerating entropy increases and ultimately leading to neuronal death
+ \item A positive feedback loop develops, accelerating entropy increases and ultimately associated with neuronal death
 \end{enumerate}
 
 This recursive breakdown explains several features of Parkinson's disease, including its progressive nature, the selective vulnerability of dopaminergic neurons (due to their position in recursive circuits), and the limited efficacy of current treatments (which address symptoms but not the underlying entropy dynamics).
@@ -193,22 +193,22 @@ This recursive breakdown explains several features of Parkinson's disease, inclu
 The development of REN-01 draws on several pharmacological precedents:
 
 \begin{enumerate}
- \item \textbf{G protein biased opioid agonists}: Compounds like TRV130 (oliceridine) selectively activate G protein signaling pathways while minimizing $\beta$-arrestin recruitment, providing analgesia with reduced side effects \cite{DeWire2013,Manglik2016}. This biased signaling approach offers a template for modulating neuronal activity without triggering compensatory adaptations \cite{Kenakin2019}.
+ \item \textbf{G protein biased opioid agonists}: Compounds like TRV130 (oliceridine) selectively activate G protein signaling pathways while minimizing $\beta$-arrestin recruitment, providing analgesia with reduced side effects \cite{DeWire2013,Manglik2016}. This biased signaling approach offers a template for influencing neuronal activity without triggering compensatory adaptations \cite{Kenakin2019}.
  
- \item \textbf{Cannabinoid type 2 (CB2) receptor ligands}: Selective CB2 agonists like HU-308 modulate immune cell and astrocyte function without psychoactive effects, providing neuroprotection in various models of neurodegeneration \cite{Benito2008,Ribeiro2016}.
+ \item \textbf{Cannabinoid type 2 (CB2) receptor ligands}: Selective CB2 agonists like HU-308 influence immune cell and astrocyte function without psychoactive effects, providing neuroprotection in various models of neurodegeneration \cite{Benito2008,Ribeiro2016}.
  
- \item \textbf{Dual-targeting compounds}: Molecules that simultaneously engage multiple receptor types are proposed for complex disorders, allowing for coordinated modulation of interacting systems \cite{Vamathevan2019}.
+ \item \textbf{Dual-targeting compounds}: Molecules that simultaneously engage multiple receptor types are proposed for complex disorders, allowing for coordinated influence of interacting systems \cite{Vamathevan2019}.
  
  \item \textbf{Redox-sensitive drug delivery}: Compounds that release active moieties in response to oxidative stress are designed to provide targeted intervention in regions experiencing pathological conditions \cite{Finkel2000}.
 \end{enumerate}
 
-By integrating these pharmacological approaches with the EntPTC2 theoretical framework, REN-01 is proposed as a novel therapeutic strategy aimed at stabilizing entropy dynamics in dopaminergic circuits through coordinated modulation of neuronal and glial function.
+By integrating these pharmacological approaches with the EntPTC2 theoretical framework, REN-01 is proposed as a novel therapeutic strategy aimed at stabilizing entropy dynamics in dopaminergic circuits through coordinated influence of neuronal and glial function.
 
 \section{Quaternionic Hilbert Space Formulation}
 
 \subsection{Motivation: Beyond Complex Quantum Mechanics}
 
-Neural entropy dynamics operate at mesoscopic scales where quantum uncertainty is negligible, yet standard scalar field theories cannot capture the multi-component phase coherence observed in dopaminergic-astrocytic networks. We employ a \textbf{quaternionic Hilbert space framework} ($\mathbb{H}^n$) \cite{adler1995qqm,baez2012division} that preserves deterministic phase space structure while providing the geometric tools necessary for smooth wave propagation and context-dependent coupling. Quaternionic Hilbert space is employed here as a deterministic algebraic formalism rather than as a claim about quaternionic quantum mechanics. In this framework, quaternion-valued states are used strictly for their algebraic properties—noncommutativity, norm preservation, and ordered composition of transformations—and are not interpreted as spatial rotations, trajectories, or geometric embeddings of neural activity.
+Neural entropy dynamics operate at mesoscopic scales where quantum uncertainty is negligible, yet standard scalar field theories cannot capture the multi-component phase coherence observed in dopaminergic-astrocytic networks. We employ a \textbf{quaternionic Hilbert space framework} ($\mathbb{H}^n$) \cite{adler1995qqm,baez2012division} that preserves deterministic phase space structure while providing the geometric tools necessary for smooth wave propagation and context-dependent coupling. Quaternionic Hilbert space is employed here as a deterministic algebraic formalism rather than as a claim about quaternionic quantum mechanics. In this framework, quaternion-valued states are used strictly for their algebraic properties—noncommutativity, norm preservation, and ordered composition of transformations—and are not interpreted as spatial rotations, deterministic trajectories, or geometric embeddings of neural activity.
 
 Unlike Lie algebra approaches (e.g., $\mathfrak{su}(2)$ for spin systems), quaternionic formulations \cite{adler1995qqm}:
 
@@ -395,14 +395,14 @@ The following figures illustrate the quaternionic Hilbert space dynamics across 
 \begin{figure}[H]
  \centering
  \includegraphics[width=0.95\textwidth]{figures/fig1c_ren01_quaternion_components.png}
- \caption{\textbf{Figure 1c: REN-01 Scenario - Quaternion Field Components.} Temporal evolution of quaternion field components under REN-01 therapeutic intervention. Four panels (2×2 layout) demonstrate restoration toward healthy dynamics: q$_0$ (dopamine) recovers to elevated levels, q$_1$ (entropy-i) is suppressed below healthy baseline, q$_2$ (astrocyte) shows enhanced activity, and q$_3$ (entropy-k) stabilizes. REN-01 parameters ($\alpha_D$=0.667, $\alpha_A$=0.167, $\beta_E$=0.269) reflect MOR agonism (K$_i$ ~5 nM), CB2 binding (K$_i$ ~50 nM), and entropy modulation derived from TRV130 molecular properties (PubChem CID 66553195).}
+ \caption{\textbf{Figure 1c: REN-01 Scenario - Quaternion Field Components.} Temporal evolution of quaternion field components under REN-01 therapeutic intervention. Four panels (2×2 layout) demonstrate bias toward regime persistence: q$_0$ (dopamine) exhibits bias toward elevated levels, q$_1$ (entropy-i) is suppressed below healthy baseline, q$_2$ (astrocyte) shows enhanced activity, and q$_3$ (entropy-k) stabilizes. REN-01 parameters ($\alpha_D$=0.667, $\alpha_A$=0.167, $\beta_E$=0.269) reflect MOR agonism (K$_i$ ~5 nM), CB2 binding (K$_i$ ~50 nM), and entropy modulation derived from TRV130 molecular properties (PubChem CID 66553195).}
  \label{fig:1c_ren01}
 \end{figure}
 
 \begin{figure}[H]
  \centering
  \includegraphics[width=0.95\textwidth]{figures/fig2_algebraic_chain_trajectories.png}
- \caption{\textbf{Figure 2: Algebraic Chain Evolution in (q$_1$, q$_2$, q$_3$) Space.} Three-dimensional trajectories showing algebraic chain evolution in the imaginary quaternion subspace (q$_1$, q$_2$, q$_3$). Green trajectory (healthy) shows tight clustering around a stable attractor. Red trajectory (degenerative) exhibits entropic drift away from the stable region. Blue trajectory (REN-01) demonstrates therapeutic restoration with directed movement toward enhanced stability. Circles mark initial conditions; squares mark final states. Directional arrows indicate temporal progression. The distinct separation of trajectories confirms three unique dynamical regimes.}
+ \caption{\textbf{Figure 2: Algebraic Chain Evolution in (q$_1$, q$_2$, q$_3$) Space.} Three-dimensional algebraic chains showing algebraic chain evolution in the imaginary quaternion subspace (q$_1$, q$_2$, q$_3$). Green trajectory (healthy) shows tight clustering around a stable attractor. Red trajectory (degenerative) exhibits entropic drift away from the stable region. Blue trajectory (REN-01) demonstrates bias toward regime persistence with directed movement toward enhanced stability. Circles mark initial conditions; squares mark final states. Directional arrows indicate temporal progression. The distinct separation of algebraic chains confirms three unique dynamical regimes. Chains represent ensemble statistics across stochastic realizations and do not correspond to deterministic trajectories. Results are model-defined and not predictive.}
  \label{fig:2_trajectories}
 \end{figure}
 
@@ -438,7 +438,7 @@ We analyzed trajectories in (q$_1$, q$_2$, q$_3$) space to characterize attracto
 \begin{figure}[H]
  \centering
  \includegraphics[width=0.95\textwidth]{figures/fig5a_r1_attractor_topology.png}
- \caption{\textbf{Figure 5a: R1 Attractor Topology Verification.} Three-dimensional attractor analysis in (q$_1$, q$_2$, q$_3$) space. Top row: Healthy (left) and degenerative (right) attractors showing distinct spatial structures. Bottom row: REN-01 attractor (centered) demonstrating therapeutic restoration. Each trajectory shows 500 time steps with start point (green circle) and end point (red X). Degenerative attractor exhibits 24\% larger mean distance from centroid (0.412 vs 0.332 for healthy), quantitatively confirming higher entropic spread. Spatial grid: 50×50 points, temporal resolution: dt=0.01.}
+ \caption{\textbf{Figure 5a: R1 Attractor Topology Verification.} Three-dimensional attractor analysis in (q$_1$, q$_2$, q$_3$) space. Top row: Healthy (left) and degenerative (right) attractors showing distinct spatial structures. Bottom row: REN-01 attractor (centered) demonstrating bias toward regime persistence. Each chain shows 500 time steps with start point (green circle) and end point (red X). Degenerative attractor exhibits 24\% larger mean distance from centroid (0.412 vs 0.332 for healthy), quantitatively confirming higher entropic spread. Spatial grid: 50×50 points, temporal resolution: dt=0.01.}
  \label{fig:5a_r1}
 \end{figure}
 
@@ -531,12 +531,12 @@ REN-01 employs a dual-targeting strategy to coordinate neuronal and astrocytic r
  \item Demonstrated upregulation in neurodegenerative conditions 
 \end{itemize}
 
-\textbf{Coordinated Effect}: While individual REN-01 molecules engage either neuronal MOR or astrocytic CB2 receptors (not both simultaneously on different cells), the population-level distribution achieves coordinated modulation of the neuron-glia network. The relative affinity of each domain (MOR: Ki $\sim$5 nM; CB2: Ki $\sim$8 nM) ensures approximately balanced engagement across both cell types.
+\textbf{Coordinated Effect}: While individual REN-01 molecules engage either neuronal MOR or astrocytic CB2 receptors (not both simultaneously on different cells), the population-level distribution achieves coordinated influence of the neuron-glia network. The relative affinity of each domain (MOR: Ki $\sim$5 nM; CB2: Ki $\sim$8 nM) ensures approximately balanced engagement across both cell types.
 
 The PEG linker connecting the two domains serves to:
 
 \begin{itemize}
- \item Provide conformational flexibility for optimal receptor engagement 
+ \item Provide conformational flexibility for effective receptor engagement 
  \item Enhance aqueous solubility for CNS distribution 
  \item Reduce non-specific binding to off-target proteins
  \item Maintain appropriate pharmacokinetic properties
@@ -764,7 +764,7 @@ $\gamma$ & Entropy damping & i-component suppression (healthy $\rightarrow$ REN-
 \multicolumn{4}{l}{\textit{Scenario-Specific Parameters}} \\
 Healthy & $\alpha_D|\alpha_A|\gamma$ & Baseline physiological balance & $0.5|0.4|0.3$ \\
 Degenerative & $\alpha_D|\alpha_A|\gamma$ & Dopamine depletion + glial dysfunction + entropy amplification & $0.1|0.1|0.5$ \\
-REN-01 & $\alpha_D|\alpha_A|\gamma$ & Therapeutic restoration & $0.8|0.6|0.2$ \\
+REN-01 & $\alpha_D|\alpha_A|\gamma$ & Bias toward regime persistence & $0.8|0.6|0.2$ \\
 \hline
 \multicolumn{4}{l}{\textit{Noise Term}} \\
 $\eta_Q(x,t)$ & Quaternion noise & Gaussian white noise on each component & $\sigma = 0.01$ \\
@@ -798,7 +798,7 @@ The scalar projections ($\phi_E$, $\psi_D$, $A$) provide physiologically interpr
 
 The system exhibits critical transitions between different dynamical regimes, corresponding to healthy function, compensated dysfunction, and degenerative collapse. These transitions can be analyzed by examining the fixed points and stability properties of the system.
 
-In the healthy state, the system has a stable fixed point with low entropy, robust dopaminergic activity, and strong astrocytic support. As parameters shift due to aging or pathology, this fixed point can undergo bifurcations, leading to new dynamical regimes with progressively higher entropy and diminished function.
+In the healthy state, the system has a stable fixed point with low entropy, robust dopaminergic activity, and strong astrocytic support. As parameters shift due to aging or pathology, this fixed point can undergo bifurcations, associated with new dynamical regimes with progressively higher entropy and diminished function.
 
 System stability is assessed by monitoring the quaternion field evolution and its scalar projections. A healthy system maintains:
 \begin{itemize}
@@ -823,7 +823,7 @@ REN-01 treatment applies forcing $F_{\text{REN}}(Q)$ that drives the system back
 REN-01 modifies specific parameters in this system:
 
 \begin{enumerate}
- \item The MOR agonist component increases $\alpha$ (entropy reduction by dopaminergic activity) and decreases $\delta$ (inhibition of dopaminergic function by entropy)
+ \item The MOR agonist component increases $\alpha$ (limitation of entropic load accumulation by dopaminergic activity) and decreases $\delta$ (inhibition of dopaminergic function by entropy)
  
  \item The CB2 ligand component increases $\epsilon$ (support of dopaminergic function by astrocytes) and decreases $\beta$ (entropy increase due to astrocytic dysfunction)
  
@@ -840,9 +840,9 @@ Critical points (stable attractors, unstable repellers, and saddle points) defin
 
 \subsection{Quaternionic Attractor Dynamics}
 
-The quaternionic field $Q(x,t)$ captures the recursive, non-commutative aspects of information processing in neural circuits. This field evolves on a manifold in quaternionic space, forming attractors that represent stable patterns of recursive processing.
+The quaternionic field $Q(x,t)$ captures the recursive, non-commutative aspects of information processing in neural circuits. This field evolves algebraically within the quaternionic framework, forming attractors that represent stable patterns of recursive processing.
 
-In degenerative conditions, these attractors shrink and destabilize, leading to loss of regime persistence. REN-01 is hypothesized to preserve the structure of these attractors, maintaining regime stability under noise.
+In degenerative conditions, these attractors shrink and destabilize, associated with loss of regime persistence. REN-01 is hypothesized to preserve the structure of these attractors, maintaining regime stability under noise.
 
 \subsection{Numerical Simulation Methods}
 
@@ -1037,7 +1037,7 @@ These design features motivate the potential clinical relevance of the entropy f
 Sensitivity analysis of the collapse metric identifies the parameters most influential in determining system stability, guiding the design of REN-01 to target these specific mechanisms. This analysis reveals that:
 
 \begin{itemize}
- \item Interventions that increase $\alpha$ (entropy reduction by dopaminergic activity) have the greatest stabilizing effect 
+ \item Interventions that increase $\alpha$ (limitation of entropic load accumulation by dopaminergic activity) have the greatest stabilizing effect 
  \item Combined modulation of $\alpha$ and $\epsilon$ (astrocytic support) produces synergistic benefits 
  \item Reduction of $\gamma$ (non-linear entropy growth) is particularly effective in advanced disease states 
 \end{itemize}
@@ -1050,7 +1050,7 @@ The framework enables patient-specific modeling by incorporating individual vari
 
 \begin{itemize}
  \item Estimation of individual $\chi$ values from neuroimaging and electrophysiological data 
- \item Prediction of optimal drug combinations based on patient-specific parameter profiles 
+ \item Prediction of effective drug combinations based on patient-specific parameter profiles 
  \item Identification of patients most likely to benefit from entropy-stabilizing interventions 
 \end{itemize}
 
@@ -1114,7 +1114,7 @@ The development and validation of REN-01 requires a comprehensive methodological
 The identification and optimization of REN-01's molecular components employed current screening approaches:
 
 \begin{itemize}
- \item Fragment-based drug discovery using surface plasmon resonance (SPR) and nuclear magnetic resonance (NMR) screening identified optimal binding moieties for both MOR and CB2 receptors 
+ \item Fragment-based drug discovery using surface plasmon resonance (SPR) and nuclear magnetic resonance (NMR) screening identified effective binding moieties for both MOR and CB2 receptors 
  \item Iterative parallel synthesis with automated purification systems generated over 450 candidate compounds for initial evaluation 
  \item Machine learning-guided optimization using quantitative structure-activity relationship (QSAR) models accelerated the refinement process 
  \item Biased signaling assays using BRET-based sensors quantified G protein vs. $\beta$-arrestin recruitment ratios 
@@ -1146,7 +1146,7 @@ Comprehensive assessment of neural circuit function utilizes complementary elect
  \item Wireless recording systems for freely moving animals to assess behavioral correlates 
 \end{itemize}
 
-Integration of these approaches would enable characterization of how REN-01 may modulate information processing across multiple spatial and temporal scales.
+Integration of these approaches would enable characterization of how REN-01 may influence information processing across multiple spatial and temporal scales.
 
 \subsubsection{Advanced Proteomics and Metabolomics}
 
@@ -1171,7 +1171,7 @@ Computational modeling of REN-01's effects employs sophisticated simulation appr
  \item Molecular dynamics simulations using enhanced sampling techniques (metadynamics, umbrella sampling) to characterize binding interactions 
  \item Multiscale modeling linking molecular, cellular, and network levels 
  \item GPU-accelerated simulations enabling microsecond-scale trajectories of receptor-ligand complexes 
- \item Markov state modeling to identify key conformational states and transition pathways 
+ \item Markov state modeling to identify key conformational states and transition dynamics 
 \end{itemize}
 
 Such simulations may reveal allosteric mechanisms through which REN-01 could stabilize receptor conformations favoring G protein signaling.
@@ -1342,7 +1342,7 @@ The collapse metric reveals that vulnerability is not uniformly distributed but 
 
 \subsection{Patient Simulation}
 
-A simulated patient trajectory, modeled after atypical collapse patterns, illustrates the hypothesis that REN-01 may expand the basin of attraction in recursive neural feedback loops, potentially delaying collapse beyond standard treatment timelines. Without intervention, the entropy field crosses threshold $\chi < 1$ by time $T_1$; with REN-01, stabilization occurs and $\chi$ remains above collapse until $T_4$.
+A simulated patient state evolution, modeled after atypical collapse patterns, illustrates the hypothesis that REN-01 may expand the basin of attraction in recursive neural feedback loops, potentially delaying collapse beyond standard treatment timelines. Without intervention, the entropy field crosses threshold $\chi < 1$ by time $T_1$; with REN-01, stabilization occurs and $\chi$ remains above collapse until $T_4$.
 
 The simulation suggests several key features of this atypical presentation:
 
@@ -1372,7 +1372,7 @@ The temporal evolution of the system can be visualized by tracking key variables
  \item \textbf{With REN-01 treatment}: Stabilized entropy; preserved dopaminergic activity; enhanced astrocytic function
 \end{enumerate}
 
-These temporal patterns illustrate the hypothesis that REN-01 may alter the trajectory of the system, potentially preventing the cascade of failures that characterize neurodegenerative progression.
+These temporal patterns illustrate the hypothesis that REN-01 may alter the regime dynamics of the system, potentially preventing the cascade of failures that characterize neurodegenerative progression.
 
 \subsection{Predictions for Experimental Testing}
 
@@ -1481,7 +1481,7 @@ The MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) mouse model provides a w
  \item REN-01 administration after MPTP challenge
  \item Timing-dependent effects
  \item Combination with standard treatments
- \item Evaluation of functional recovery
+ \item Evaluation of functional regime persistence
  \end{itemize}
  
  \item \textbf{Behavioral assessments}:
@@ -1572,7 +1572,7 @@ Studies in human post-mortem tissue provide crucial translational validation:
  \begin{itemize}
  \item Quantification of MOR and CB2 receptor distribution in control and Parkinson's disease tissue
  \item Correlation with disease stage and severity
- \item Identification of optimal therapeutic targets
+ \item Identification of effective therapeutic targets
  \item Prediction of treatment response
  \end{itemize}
  
@@ -1804,7 +1804,7 @@ Advanced computational approaches can reduce development costs:
 
 \begin{itemize}
  \item Machine learning algorithms can predict BBB-penetrating peptide sequences with high accuracy, reducing experimental screening costs by up to 60\% 
- \item Molecular dynamics simulations enable rational design of peptide shuttles with optimal physicochemical properties for BBB penetration 
+ \item Molecular dynamics simulations enable rational design of peptide shuttles with enhanced physicochemical properties for BBB penetration 
  \item Structure-activity relationship analyses guide the development of minimalist peptide sequences that maintain BBB penetration while reducing synthesis complexity and cost 
 \end{itemize}
 
@@ -1845,7 +1845,7 @@ The entropy field hypothesis offers a new conceptual framework for understanding
 Several features of this framework are noteworthy:
 
 \begin{enumerate}
- \item \textbf{Integration of multiple pathological mechanisms}: By conceptualizing neurodegeneration as an entropy cascade, this framework can accommodate diverse initiating factors (genetic mutations, environmental toxins, aging processes) that converge on a common pathway of informational collapse.
+ \item \textbf{Integration of multiple pathological mechanisms}: By conceptualizing neurodegeneration as an entropy cascade, this framework can accommodate diverse initiating factors (genetic mutations, environmental toxins, aging processes) that converge on a common pattern of informational instability.
  
  \item \textbf{Explanation of selective vulnerability}: The entropy field model explains why certain neural populations, particularly those involved in recursive processing like dopaminergic neurons, are especially vulnerable to degeneration.
  
@@ -1875,7 +1875,7 @@ REN-01 differs from these approaches in several key respects:
 \begin{enumerate}
  \item \textbf{Dual targeting of neurons and glia}: By simultaneously engaging neuronal and astrocytic receptors, REN-01 addresses both direct neuronal dysfunction and the critical supportive role of astrocytes.
  
- \item \textbf{Information-focused intervention}: Rather than targeting a single biochemical pathway, REN-01 aims to stabilize the informational dynamics that integrate multiple cellular processes.
+ \item \textbf{Information-focused intervention}: Rather than targeting a single biochemical target, REN-01 aims to stabilize the informational dynamics that integrate multiple cellular processes.
  
  \item \textbf{Adaptive response}: The redox-sensitive component provides targeted intervention in regions experiencing oxidative stress, allowing for an adaptive response to local conditions.
  
@@ -1926,11 +1926,11 @@ The entropy field concept and the REN approach may have relevance beyond this at
  \item \textbf{Amyotrophic lateral sclerosis}: The concept of recursive breakdown could illuminate the progressive failure of motor neuron circuits and the contribution of glial cells to this process.
 \end{enumerate}
 
-Modifications of the REN-01 final chemical structure could be developed to target the specific neural populations and circuit dynamics involved in these disorders, potentially leading to a family of entropy-stabilizing therapeutics.
+Modifications of the REN-01 final chemical structure could be developed to target the specific neural populations and circuit dynamics involved in these disorders, potentially yielding a family of entropy-stabilizing therapeutics.
 
 \subsection{Ethical and Philosophical Considerations}
 
-The development of compounds that modulate information processing in the brain raises important ethical and philosophical questions:
+The development of compounds that influence information processing in the brain raises important ethical and philosophical questions:
 
 \begin{enumerate}
  \item \textbf{Consciousness and identity}: How might interventions that alter the informational dynamics of neural circuits affect subjective experience and personal identity?
@@ -2210,9 +2210,9 @@ The entropy field framework can provide insights into schizophrenia as a disorde
 
 A potential REN-03 compound for schizophrenia might feature:
 \begin{itemize}
- \item A D2 receptor partial agonist core with optimal occupancy characteristics
+ \item A D2 receptor partial agonist core with enhanced occupancy characteristics
  \item An astrocyte-targeting domain focused on glutamate transport
- \item An entropy-modulating moiety that normalizes information flow in cortical circuits
+ \item An entropy-modulating moiety that biases information flow dynamics in cortical circuits
 \end{itemize}
 
 \subsubsection{Non-neuronal Cell Systems}
@@ -2236,7 +2236,7 @@ The current mathematical model can be enhanced through:
 \begin{enumerate}
  \item \textbf{Incorporation of stochastic partial differential equations}: To better capture the role of noise in entropy dynamics
  \item \textbf{Multi-scale modeling approaches}: Linking molecular, cellular, and network levels of description
- \item \textbf{Topological data analysis}: Applying advanced mathematical tools to characterize the shape of attractor manifolds
+ \item \textbf{Topological data analysis}: Applying advanced mathematical tools to characterize the shape of attractor structures
  \item \textbf{Machine learning integration}: Using data-driven approaches to refine model parameters and predictions
 \end{enumerate}
 
@@ -2294,7 +2294,7 @@ The complexity of neurodegenerative disorders suggests opportunities for persona
 
 \begin{enumerate}
  \item \textbf{Genetic stratification}: Developing variants optimized for specific genetic forms of disease
- \item \textbf{Biomarker-guided therapy}: Using entropy metrics to match patients with optimal treatments
+ \item \textbf{Biomarker-guided therapy}: Using entropy metrics to match patients with enhanced treatments
  \item \textbf{Adaptive dosing regimens}: Tailoring treatment intensity to disease stage and progression rate
  \item \textbf{Combination protocols}: Designing individualized multi-component therapeutic strategies
 \end{enumerate}
