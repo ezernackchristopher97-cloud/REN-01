@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.24)  24 JAN 2026 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.24)  24 JAN 2026 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -571,146 +571,155 @@ Overfull \hbox (24.05466pt too wide) in paragraph at lines 50--51
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/reop_logo.png (P
-NG copy)>] [2] [3] [4] [5]
-Overfull \hbox (13.00644pt too wide) in paragraph at lines 141--142
+NG copy)>] [2]
+No file ren01.toc.
+\tf@toc=\write4
+\openout4 = `ren01.toc'.
+
+[3] [4] [5] [6]
+Overfull \hbox (13.00644pt too wide) in paragraph at lines 145--146
 []\OT1/cmr/m/n/12 In Parkin-son's dis-ease, as-tro-cyte dys-func-tion con-tribu
 tes to the de-gen-er-a-tion of dopamin-
  []
 
-[6]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 185
+[7] [8]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 189
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
+) [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 []\OT1/cmr/bx/n/10.95 Context
  []
 
 
-Overfull \hbox (8.93001pt too wide) in paragraph at lines 315--316
+Overfull \hbox (8.93001pt too wide) in paragraph at lines 319--320
 []\OT1/cmr/bx/n/10.95 Quantum| 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 327.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 331.
 
-<figures/fig1a_healthy_quaternion_components.png, id=791, 2055.68pt x 1771.6187
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 331.
+
+[11]
+<figures/fig1a_healthy_quaternion_components.png, id=801, 2055.68pt x 1771.6187
 4pt>
 File: figures/fig1a_healthy_quaternion_components.png Graphic file (type png)
 <use figures/fig1a_healthy_quaternion_components.png>
 Package pdftex.def Info: figures/fig1a_healthy_quaternion_components.png  used 
-on input line 357.
+on input line 361.
 (pdftex.def)             Requested size: 430.31812pt x 370.83444pt.
-[10]
-<figures/fig1b_degenerative_quaternion_components.png, id=804, 2055.68pt x 1771
+ [12]
+<figures/fig1b_degenerative_quaternion_components.png, id=811, 2055.68pt x 1771
 .61874pt>
 File: figures/fig1b_degenerative_quaternion_components.png Graphic file (type p
 ng)
 <use figures/fig1b_degenerative_quaternion_components.png>
 Package pdftex.def Info: figures/fig1b_degenerative_quaternion_components.png  
-used on input line 364.
+used on input line 368.
 (pdftex.def)             Requested size: 430.31812pt x 370.83444pt.
- [11 <./figures/fig1a_healthy_quaternion_components.png (PNG copy)>]
-<figures/fig1c_ren01_quaternion_components.png, id=811, 2055.68pt x 1771.61874p
+ [13 <./figures/fig1a_healthy_quaternion_components.png (PNG copy)>]
+<figures/fig1c_ren01_quaternion_components.png, id=819, 2055.68pt x 1771.61874p
 t>
 File: figures/fig1c_ren01_quaternion_components.png Graphic file (type png)
 <use figures/fig1c_ren01_quaternion_components.png>
 Package pdftex.def Info: figures/fig1c_ren01_quaternion_components.png  used on
- input line 371.
+ input line 375.
 (pdftex.def)             Requested size: 430.31812pt x 370.83444pt.
 
-[12 <./figures/fig1b_degenerative_quaternion_components.png (PNG copy)>]
-<figures/fig2_algebraic_chain_trajectories.png, id=821, 1914.15125pt x 2055.68p
+[14 <./figures/fig1b_degenerative_quaternion_components.png (PNG copy)>]
+<figures/fig2_algebraic_chain_trajectories.png, id=829, 1914.15125pt x 2055.68p
 t>
 File: figures/fig2_algebraic_chain_trajectories.png Graphic file (type png)
 <use figures/fig2_algebraic_chain_trajectories.png>
 Package pdftex.def Info: figures/fig2_algebraic_chain_trajectories.png  used on
- input line 378.
+ input line 382.
 (pdftex.def)             Requested size: 430.31812pt x 462.13164pt.
 
-[13 <./figures/fig1c_ren01_quaternion_components.png (PNG copy)>]
-<figures/fig3_coherence_order_parameter.png, id=828, 2055.68pt x 1194.4625pt>
+[15 <./figures/fig1c_ren01_quaternion_components.png (PNG copy)>]
+<figures/fig3_coherence_order_parameter.png, id=835, 2055.68pt x 1194.4625pt>
 File: figures/fig3_coherence_order_parameter.png Graphic file (type png)
 <use figures/fig3_coherence_order_parameter.png>
 Package pdftex.def Info: figures/fig3_coherence_order_parameter.png  used on in
-put line 387.
+put line 391.
 (pdftex.def)             Requested size: 430.31812pt x 250.02435pt.
- [14 <./figures/fig2_algebraic_chain_trajectories.png (PNG copy)>]
-<figures/fig4_entropy_dopamine_fields.png, id=834, 2055.68pt x 1311.90125pt>
+ [16 <./figures/fig2_algebraic_chain_trajectories.png (PNG copy)>]
+<figures/fig4_entropy_dopamine_fields.png, id=841, 2055.68pt x 1311.90125pt>
 File: figures/fig4_entropy_dopamine_fields.png Graphic file (type png)
 <use figures/fig4_entropy_dopamine_fields.png>
 Package pdftex.def Info: figures/fig4_entropy_dopamine_fields.png  used on inpu
-t line 394.
+t line 398.
 (pdftex.def)             Requested size: 430.31812pt x 274.60658pt.
- [15 <./figures/fig3_coherence_order_parameter.png (PNG copy)>]
-<figures/fig5a_r1_attractor_topology.png, id=840, 2055.68pt x 1778.645pt>
+ [17 <./figures/fig3_coherence_order_parameter.png (PNG copy)>]
+<figures/fig5a_r1_attractor_topology.png, id=847, 2055.68pt x 1778.645pt>
 File: figures/fig5a_r1_attractor_topology.png Graphic file (type png)
 <use figures/fig5a_r1_attractor_topology.png>
 Package pdftex.def Info: figures/fig5a_r1_attractor_topology.png  used on input
- line 414.
+ line 418.
 (pdftex.def)             Requested size: 430.31812pt x 372.30518pt.
- [16 <./figures/fig4_entropy_dopamine_fields.png (PNG copy)>]
-<figures/fig5b_r2_basin_scatter.png, id=847, 1896.08376pt x 2055.68pt>
+ [18 <./figures/fig4_entropy_dopamine_fields.png (PNG copy)>]
+<figures/fig5b_r2_basin_scatter.png, id=854, 1896.08376pt x 2055.68pt>
 File: figures/fig5b_r2_basin_scatter.png Graphic file (type png)
 <use figures/fig5b_r2_basin_scatter.png>
 Package pdftex.def Info: figures/fig5b_r2_basin_scatter.png  used on input line
- 425.
+ 429.
 (pdftex.def)             Requested size: 385.02547pt x 417.4335pt.
- [17 <./figures/fig5a_r1_attractor_topology.png (PNG copy)>]
-<figures/fig5b_r2_overlaid_histograms.png, id=853, 2055.68pt x 1193.45876pt>
+ [19 <./figures/fig5a_r1_attractor_topology.png (PNG copy)>]
+<figures/fig5b_r2_overlaid_histograms.png, id=861, 2055.68pt x 1193.45876pt>
 File: figures/fig5b_r2_overlaid_histograms.png Graphic file (type png)
 <use figures/fig5b_r2_overlaid_histograms.png>
 Package pdftex.def Info: figures/fig5b_r2_overlaid_histograms.png  used on inpu
-t line 432.
+t line 436.
 (pdftex.def)             Requested size: 385.02547pt x 223.518pt.
 
-[18 <./figures/fig5b_r2_basin_scatter.png (PNG copy)>]
-<figures/fig5c_r2_boxplots.png, id=859, 2055.68pt x 1435.3625pt>
+[20 <./figures/fig5b_r2_basin_scatter.png (PNG copy)>]
+<figures/fig5c_r2_boxplots.png, id=867, 2055.68pt x 1435.3625pt>
 File: figures/fig5c_r2_boxplots.png Graphic file (type png)
 <use figures/fig5c_r2_boxplots.png>
-Package pdftex.def Info: figures/fig5c_r2_boxplots.png  used on input line 439.
+Package pdftex.def Info: figures/fig5c_r2_boxplots.png  used on input line 443.
 
 (pdftex.def)             Requested size: 385.02547pt x 268.82318pt.
- [19 <./figures/fig5b_r2_overlaid_histograms.png (PNG copy)>]
-<figures/fig5d_ablation_ordering.png, id=866, 2055.68pt x 1200.485pt>
+ [21 <./figures/fig5b_r2_overlaid_histograms.png (PNG copy)>]
+<figures/fig5d_ablation_ordering.png, id=873, 2055.68pt x 1200.485pt>
 File: figures/fig5d_ablation_ordering.png Graphic file (type png)
 <use figures/fig5d_ablation_ordering.png>
 Package pdftex.def Info: figures/fig5d_ablation_ordering.png  used on input lin
-e 454.
+e 458.
 (pdftex.def)             Requested size: 385.02547pt x 224.83394pt.
- [20 <./figures/fig5c_r2_boxplots.png (PNG copy)>]
-<figures/fig5e_ablation_fields.png, id=872, 2055.68pt x 1193.45876pt>
+ [22 <./figures/fig5c_r2_boxplots.png (PNG copy)>]
+<figures/fig5e_ablation_fields.png, id=879, 2055.68pt x 1193.45876pt>
 File: figures/fig5e_ablation_fields.png Graphic file (type png)
 <use figures/fig5e_ablation_fields.png>
 Package pdftex.def Info: figures/fig5e_ablation_fields.png  used on input line 
-461.
+465.
 (pdftex.def)             Requested size: 385.02547pt x 223.518pt.
-<figures/fig5f_ablation_summary.png, id=873, 2055.68pt x 1195.46625pt>
+<figures/fig5f_ablation_summary.png, id=880, 2055.68pt x 1195.46625pt>
 File: figures/fig5f_ablation_summary.png Graphic file (type png)
 <use figures/fig5f_ablation_summary.png>
 Package pdftex.def Info: figures/fig5f_ablation_summary.png  used on input line
- 468.
+ 472.
 (pdftex.def)             Requested size: 385.02547pt x 223.89398pt.
- [21 <./figures/fig5d_ablation_ordering.png (PNG copy)> <./figures/fig5e_ablati
+ [23 <./figures/fig5d_ablation_ordering.png (PNG copy)> <./figures/fig5e_ablati
 on_fields.png (PNG copy)>]
-<figures/ablation_ladder.png, id=880, 2055.68pt x 726.715pt>
+<figures/ablation_ladder.png, id=887, 2055.68pt x 726.715pt>
 File: figures/ablation_ladder.png Graphic file (type png)
 <use figures/ablation_ladder.png>
-Package pdftex.def Info: figures/ablation_ladder.png  used on input line 475.
+Package pdftex.def Info: figures/ablation_ladder.png  used on input line 479.
 (pdftex.def)             Requested size: 430.31812pt x 152.11565pt.
 
-Underfull \hbox (badness 1546) in paragraph at lines 476--476
+Underfull \hbox (badness 1546) in paragraph at lines 480--480
 []\OT1/cmr/m/n/12 Figure 14: |\OT1/cmr/bx/n/12 Ab-la-tion Lad-der Overview: Com
 -po-nent Con-tri-bu-tions and
  []
 
-[22 <./figures/fig5f_ablation_summary.png (PNG copy)>] [23 <./figures/ablation_
+[24 <./figures/fig5f_ablation_summary.png (PNG copy)>] [25 <./figures/ablation_
 ladder.png (PNG copy)>]
 
 ! LaTeX Error: There's no line here to end.
@@ -719,134 +728,134 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 ... weight: $\sim$1500-1600 Da\vspace{2cm}}}
+l.499 ... weight: $\sim$1500-1600 Da\vspace{2cm}}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[24]
-Overfull \hbox (17.93149pt too wide) in paragraph at lines 530--531
+[26]
+Overfull \hbox (17.93149pt too wide) in paragraph at lines 534--535
 \OT1/cmr/m/n/12 MOR or as-tro-cytic CB2 re-cep-tors (not both si-mul-ta-ne-ousl
 y on dif-fer-ent cells), the population-
  []
 
-[25] [26] [27]
-Overfull \hbox (7.26958pt too wide) in paragraph at lines 636--637
+[27] [28] [29]
+Overfull \hbox (7.26958pt too wide) in paragraph at lines 640--641
 []$\OML/cmm/m/it/12  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; t\OT1/cmr/m/n/12 )$
 : Dopamin-er-gic ac-tiv-ity field, rep-re-sent-ing the func-tional ac-tiv-ity o
 f dopamin-
  []
 
-[28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 744--744
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 748--748
 []\OT1/cmr/m/n/10.95 Quaternion field
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 750--751
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
 []$\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 005$ (grid
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 755--755
+Underfull \hbox (badness 1331) in paragraph at lines 759--759
 []\OT1/cmr/m/n/10.95 Penalty for j-axis mis-align-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--760
+Underfull \hbox (badness 10000) in paragraph at lines 764--764
 []\OT1/cmr/m/n/10.95 i-component sup-pres-sion
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 765--765
+Underfull \hbox (badness 2181) in paragraph at lines 769--769
 []\OT1/cmr/m/n/10.95 Bias to-ward regime per-sis-
  []
 
-[30] [31] [32] [33] [34] [35] [36] [37]
-Overfull \hbox (7.30093pt too wide) in paragraph at lines 1014--1015
+[32] [33] [34] [35] [36] [37] [38] [39]
+Overfull \hbox (7.30093pt too wide) in paragraph at lines 1018--1019
 []\OT1/cmr/m/n/12 Sensitivity anal-y-sis con-firm-ing qual-i-ta-tive in-sen-si-
 tiv-ity to pa-ram-e-ter vari-a-tions within
  []
 
 
-Overfull \hbox (2.98317pt too wide) in paragraph at lines 1018--1019
+Overfull \hbox (2.98317pt too wide) in paragraph at lines 1022--1023
 []\OT1/cmr/m/it/12 Note: These are com-pu-ta-tional model pre-dic-tions re-quir
 -ing em-pir-i-cal val-i-da-tion through
  []
 
-[38] [39] [40] [41]
-Overfull \hbox (2.7885pt too wide) in paragraph at lines 1169--1170
+[40] [41] [42] [43]
+Overfull \hbox (2.7885pt too wide) in paragraph at lines 1173--1174
 \OT1/cmr/m/n/12 Computational mod-el-ing of REN-01's ef-fects em-ploys so-phis-
 ti-cated sim-u-la-tion ap-proaches: 
  []
 
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
-<figures/system_schematic.png, id=1124, 2055.68pt x 2055.68pt>
+[44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56]
+<figures/system_schematic.png, id=1134, 2055.68pt x 2055.68pt>
 File: figures/system_schematic.png Graphic file (type png)
 <use figures/system_schematic.png>
-Package pdftex.def Info: figures/system_schematic.png  used on input line 1708.
+Package pdftex.def Info: figures/system_schematic.png  used on input line 1712.
 
 (pdftex.def)             Requested size: 430.31812pt x 430.29402pt.
- [55]
+ [57]
 Overfull \vbox (29.78714pt too high) has occurred while \output is active []
 
 
-[56 <./figures/system_schematic.png (PNG copy)>]
-Overfull \hbox (1.62183pt too wide) in paragraph at lines 1739--1740
+[58 <./figures/system_schematic.png (PNG copy)>]
+Overfull \hbox (1.62183pt too wide) in paragraph at lines 1743--1744
 []\OT1/cmr/m/n/12 This model al-lows quan-ti-ta-tive pre-dic-tion of brain ex-p
 o-sure based on peptide-enhanced
  []
 
-[57]
-Overfull \hbox (0.41844pt too wide) in paragraph at lines 1787--1788
+[59]
+Overfull \hbox (0.41844pt too wide) in paragraph at lines 1791--1792
  []\OT1/cmr/bx/n/12 Receptor-Targeted Pep-tide Shut-tles[] \OT1/cmr/m/n/12 Pep-
 tides tar-get-ing spe-cific re-cep-tors ex-pressed
  []
 
 
-Overfull \hbox (0.99962pt too wide) in paragraph at lines 1790--1791
+Overfull \hbox (0.99962pt too wide) in paragraph at lines 1794--1795
 []\OT1/cmr/m/n/12 Transferrin re-cep-tor (TfR)-binding pep-tides achieve brain 
 de-liv-ery through receptor-
  []
 
 
-Overfull \hbox (5.72598pt too wide) in paragraph at lines 1791--1792
+Overfull \hbox (5.72598pt too wide) in paragraph at lines 1795--1796
 []\OT1/cmr/m/n/12 Low-density lipopro-tein receptor-related pro-tein 1 (LRP1)-t
 argeting pep-tides demon-
  []
 
 
-Overfull \hbox (2.82751pt too wide) in paragraph at lines 1795--1796
+Overfull \hbox (2.82751pt too wide) in paragraph at lines 1799--1800
 []\OT1/cmr/m/n/12 Our op-ti-mized TfR-binding pep-tide (THRPPMWSPVWP) sug-gests
  high-affinity bind-
  []
 
-[58]
-Overfull \hbox (4.13142pt too wide) in paragraph at lines 1827--1828
+[60]
+Overfull \hbox (4.13142pt too wide) in paragraph at lines 1831--1832
  []\OT1/cmr/bx/n/12 Computational Pep-tide De-sign Op-ti-miza-tion[] \OT1/cmr/m
 /n/12 Ad-vanced com-pu-ta-tional ap-proaches
  []
 
-[59]
-Overfull \hbox (14.03839pt too wide) in paragraph at lines 1835--1836
+[61]
+Overfull \hbox (14.03839pt too wide) in paragraph at lines 1839--1840
 []\OT1/cmr/m/n/12 Our com-pu-ta-tional pipeline has iden-ti-fied a min-i-mal 7-
 amino acid se-quence (FRHKQLW)
  []
 
-[60] [61] [62]
-Overfull \hbox (1.74413pt too wide) in paragraph at lines 1922--1923
+[62] [63] [64]
+Overfull \hbox (1.74413pt too wide) in paragraph at lines 1926--1927
 []\OT1/cmr/bx/n/12 Validation re-quire-ments\OT1/cmr/m/n/12 : All model pre-dic
 -tions, in-clud-ing col-lapse met-ric thresh-
  []
 
-[63] [64] [65]
-Overfull \hbox (3.25375pt too wide) in paragraph at lines 2045--2046
+[65] [66] [67]
+Overfull \hbox (3.25375pt too wide) in paragraph at lines 2049--2050
 []\OT1/cmr/m/n/12 Successful reg-u-la-tory nav-i-ga-tion of dual-targeting com-
 pounds through fo-cused mech-
  []
 
-[66] [67] [68] [69]
+[68] [69] [70] [71]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -854,7 +863,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2208 ...weight: $\sim$1400-1500 Da\vspace{2cm}}}
+l.2212 ...weight: $\sim$1400-1500 Da\vspace{2cm}}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -867,13 +876,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2215 ...weight: $\sim$1300-1400 Da\vspace{2cm}}}
+l.2219 ...weight: $\sim$1300-1400 Da\vspace{2cm}}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[70]
+[72]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -881,7 +890,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2222 ...weight: $\sim$1450-1550 Da\vspace{2cm}}}
+l.2226 ...weight: $\sim$1450-1550 Da\vspace{2cm}}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -894,58 +903,64 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2229 ...weight: $\sim$1350-1450 Da\vspace{2cm}}}
+l.2233 ...weight: $\sim$1350-1450 Da\vspace{2cm}}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[71] [72] [73]
-Overfull \hbox (2.08162pt too wide) in paragraph at lines 2306--2307
+[73] [74] [75]
+Overfull \hbox (2.08162pt too wide) in paragraph at lines 2310--2311
 []\OT1/cmr/bx/n/12 High-performance com-put-ing im-ple-men-ta-tions\OT1/cmr/m/n
 /12 : En-abling sim-u-la-tion of larger
  []
 
-[74] [75] [76]
-Overfull \hbox (1.7288pt too wide) in paragraph at lines 2408--2409
+[76] [77] [78]
+Overfull \hbox (1.7288pt too wide) in paragraph at lines 2412--2413
 []\OT1/cmr/bx/n/12 Innovative trial de-signs\OT1/cmr/m/n/12 : Im-ple-ment-ing a
 dap-tive pro-to-cols and en-rich-ment strate-
  []
 
-[77] (./ren01.bbl [78] [79] [80]) [81] (./ren01.aux)
+[79] (./ren01.bbl [80] [81] [82]) [83] (./ren01.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `ren01.out' has not changed.
 (rerunfilecheck)             Checksum: 69AC243E5DA7F093BBD4235EACE369F5;30553.
  ) 
 Here is how much of TeX's memory you used:
- 14744 strings out of 480171
- 236993 string characters out of 5894489
+ 14752 strings out of 480171
+ 237074 string characters out of 5894489
  554673 words of memory out of 5000000
- 31959 multiletter control sequences out of 15000+600000
+ 31962 multiletter control sequences out of 15000+600000
  484675 words of font info for 85 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  60i,12n,63p,2259b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/ubuntu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.60
-0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ren01.pdf (81 pages, 13217845 bytes).
+pdfTeX warning (dest): name{table.caption.17} has been referenced but does no
+t exist, replaced by a fixed one
+
+ </home/ubuntu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600p
+k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ren01.pdf (83 pages, 13218625 bytes).
 PDF statistics:
- 1599 PDF objects out of 1728 (max. 8388607)
- 1441 compressed objects within 15 object streams
- 522 named destinations out of 1000 (max. 500000)
+ 1608 PDF objects out of 1728 (max. 8388607)
+ 1448 compressed objects within 15 object streams
+ 526 named destinations out of 1000 (max. 500000)
  1177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
