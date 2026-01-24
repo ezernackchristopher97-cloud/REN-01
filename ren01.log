@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.24)  24 JAN 2026 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.24)  24 JAN 2026 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,72 +781,72 @@ Overfull \hbox (2.7885pt too wide) in paragraph at lines 1169--1170
 ti-cated sim-u-la-tion ap-proaches: 
  []
 
-[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53]
-<figures/system_schematic.png, id=1119, 2055.68pt x 2055.68pt>
+[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
+<figures/system_schematic.png, id=1124, 2055.68pt x 2055.68pt>
 File: figures/system_schematic.png Graphic file (type png)
 <use figures/system_schematic.png>
-Package pdftex.def Info: figures/system_schematic.png  used on input line 1692.
+Package pdftex.def Info: figures/system_schematic.png  used on input line 1708.
 
 (pdftex.def)             Requested size: 430.31812pt x 430.29402pt.
- [54]
+ [55]
 Overfull \vbox (29.78714pt too high) has occurred while \output is active []
 
 
-[55 <./figures/system_schematic.png (PNG copy)>]
-Overfull \hbox (1.62183pt too wide) in paragraph at lines 1723--1724
+[56 <./figures/system_schematic.png (PNG copy)>]
+Overfull \hbox (1.62183pt too wide) in paragraph at lines 1739--1740
 []\OT1/cmr/m/n/12 This model al-lows quan-ti-ta-tive pre-dic-tion of brain ex-p
 o-sure based on peptide-enhanced
  []
 
-[56]
-Overfull \hbox (0.41844pt too wide) in paragraph at lines 1771--1772
+[57]
+Overfull \hbox (0.41844pt too wide) in paragraph at lines 1787--1788
  []\OT1/cmr/bx/n/12 Receptor-Targeted Pep-tide Shut-tles[] \OT1/cmr/m/n/12 Pep-
 tides tar-get-ing spe-cific re-cep-tors ex-pressed
  []
 
 
-Overfull \hbox (0.99962pt too wide) in paragraph at lines 1774--1775
+Overfull \hbox (0.99962pt too wide) in paragraph at lines 1790--1791
 []\OT1/cmr/m/n/12 Transferrin re-cep-tor (TfR)-binding pep-tides achieve brain 
 de-liv-ery through receptor-
  []
 
 
-Overfull \hbox (5.72598pt too wide) in paragraph at lines 1775--1776
+Overfull \hbox (5.72598pt too wide) in paragraph at lines 1791--1792
 []\OT1/cmr/m/n/12 Low-density lipopro-tein receptor-related pro-tein 1 (LRP1)-t
 argeting pep-tides demon-
  []
 
 
-Overfull \hbox (2.82751pt too wide) in paragraph at lines 1779--1780
+Overfull \hbox (2.82751pt too wide) in paragraph at lines 1795--1796
 []\OT1/cmr/m/n/12 Our op-ti-mized TfR-binding pep-tide (THRPPMWSPVWP) sug-gests
  high-affinity bind-
  []
 
-[57]
-Overfull \hbox (4.13142pt too wide) in paragraph at lines 1811--1812
+[58]
+Overfull \hbox (4.13142pt too wide) in paragraph at lines 1827--1828
  []\OT1/cmr/bx/n/12 Computational Pep-tide De-sign Op-ti-miza-tion[] \OT1/cmr/m
 /n/12 Ad-vanced com-pu-ta-tional ap-proaches
  []
 
-[58]
-Overfull \hbox (14.03839pt too wide) in paragraph at lines 1819--1820
+[59]
+Overfull \hbox (14.03839pt too wide) in paragraph at lines 1835--1836
 []\OT1/cmr/m/n/12 Our com-pu-ta-tional pipeline has iden-ti-fied a min-i-mal 7-
 amino acid se-quence (FRHKQLW)
  []
 
-[59] [60] [61]
-Overfull \hbox (1.74413pt too wide) in paragraph at lines 1906--1907
+[60] [61] [62]
+Overfull \hbox (1.74413pt too wide) in paragraph at lines 1922--1923
 []\OT1/cmr/bx/n/12 Validation re-quire-ments\OT1/cmr/m/n/12 : All model pre-dic
 -tions, in-clud-ing col-lapse met-ric thresh-
  []
 
-[62] [63] [64]
-Overfull \hbox (3.25375pt too wide) in paragraph at lines 2029--2030
+[63] [64] [65]
+Overfull \hbox (3.25375pt too wide) in paragraph at lines 2045--2046
 []\OT1/cmr/m/n/12 Successful reg-u-la-tory nav-i-ga-tion of dual-targeting com-
 pounds through fo-cused mech-
  []
 
-[65] [66] [67] [68] [69]
+[66] [67] [68] [69]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -860,7 +860,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[70]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -874,6 +873,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[70]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -887,7 +887,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[71]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -901,7 +900,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[72] [73]
+[71] [72] [73]
 Overfull \hbox (2.08162pt too wide) in paragraph at lines 2306--2307
 []\OT1/cmr/bx/n/12 High-performance com-put-ing im-ple-men-ta-tions\OT1/cmr/m/n
 /12 : En-abling sim-u-la-tion of larger
@@ -913,18 +912,18 @@ Overfull \hbox (1.7288pt too wide) in paragraph at lines 2408--2409
 dap-tive pro-to-cols and en-rich-ment strate-
  []
 
-[77] (./ren01.bbl [78] [79] [80] [81]) [82] (./ren01.aux)
+[77] (./ren01.bbl [78] [79] [80]) [81] (./ren01.aux)
 Package rerunfilecheck Info: File `ren01.out' has not changed.
-(rerunfilecheck)             Checksum: C8724A0A9E913378ADC7DEE23A4CBEF3;30562.
+(rerunfilecheck)             Checksum: 69AC243E5DA7F093BBD4235EACE369F5;30553.
  ) 
 Here is how much of TeX's memory you used:
  14744 strings out of 480171
- 236996 string characters out of 5894489
- 554631 words of memory out of 5000000
- 31958 multiletter control sequences out of 15000+600000
+ 236993 string characters out of 5894489
+ 554673 words of memory out of 5000000
+ 31959 multiletter control sequences out of 15000+600000
  484675 words of font info for 85 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,12n,63p,2259b,535s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,63p,2259b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ubuntu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.60
 0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
@@ -943,10 +942,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ren01.pdf (82 pages, 13217608 bytes).
+Output written on ren01.pdf (81 pages, 13217845 bytes).
 PDF statistics:
- 1604 PDF objects out of 1728 (max. 8388607)
- 1445 compressed objects within 15 object streams
- 523 named destinations out of 1000 (max. 500000)
+ 1599 PDF objects out of 1728 (max. 8388607)
+ 1441 compressed objects within 15 object streams
+ 522 named destinations out of 1000 (max. 500000)
  1177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
